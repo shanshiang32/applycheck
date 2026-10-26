@@ -4,6 +4,13 @@
 
 **当前状态**：已完成 Lexmount 云端真实采集 20 个不同岗位（字节 16 + 美团 4），统一离线重分析为 17 岗明确条件不匹配、3 岗信息不足待复核；入口核验停在登录前。规则版本 0.1.13，70 项离线测试通过。详见 [`submission/`](./submission/)。
 
+## 演示视频（68 秒，矢量生成）
+
+[`media/applycheck-demo.mp4`](./media/applycheck-demo.mp4) · 1920×1080 · 30fps · 4.16 MB
+
+由 [`tools/vector-video/`](./tools/vector-video/) 从项目真实数据逐帧渲染（非屏幕录制，体积约为原录屏的 1/38）。
+矢量海报：[`media/applycheck-poster.svg`](./media/applycheck-poster.svg)。镜头表与重渲染方法见 [`submission/demo-script.md`](./submission/demo-script.md)。
+
 > 投稿材料与官方要求核对见 [`submission/OFFICIAL_REQUIREMENTS.md`](./submission/OFFICIAL_REQUIREMENTS.md)；发布到 GitHub 与投稿操作见 [`GITHUB_SUBMISSION.md`](./GITHUB_SUBMISSION.md)。
 
 ## 先看效果（不需要密钥，也不需要安装依赖）
