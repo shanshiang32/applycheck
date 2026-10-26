@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ApplyCheck / 投前核验 · Lexmount 真实任务挑战</title>
+<style>
+  :root{--ink:#17243a;--sub:#5d6d84;--line:#e2e9f3;--accent:#215ec4;--bg:#f4f7fb}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font:16px/1.75 "Microsoft YaHei","Segoe UI",system-ui,sans-serif}
+  main{max-width:1080px;margin:0 auto;padding:56px 24px 80px}
+  .eyebrow{color:var(--accent);font-weight:700;letter-spacing:5px;font-size:13px}
+  h1{font-size:42px;line-height:1.25;margin:14px 0 10px;letter-spacing:-.5px}
+  .lead{font-size:17px;color:var(--sub);max-width:820px}
+  .tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+  .tag{background:#e8f0fb;color:var(--accent);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:700}
+  section{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px 30px;margin-top:26px;
+          box-shadow:0 8px 24px rgba(23,36,58,.05)}
+  h2{font-size:20px;margin-bottom:6px}
+  .hint{font-size:14px;color:var(--sub);margin-bottom:16px}
+  video{width:100%;border-radius:12px;background:#000;display:block}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin-top:4px}
+  .stat{border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+  .num{font-size:40px;font-weight:700;font-family:"Cascadia Mono",Consolas,monospace;line-height:1.1}
+  .lbl{font-size:14px;color:var(--sub);margin-top:6px}
+  .red{color:#b3261e}.amber{color:#a56a00}.green{color:#1a7f45}
+  ul.links{list-style:none;display:grid;gap:10px}
+  ul.links a{color:var(--accent);text-decoration:none;font-weight:600}
+  ul.links a:hover{text-decoration:underline}
+  ul.links li{border-bottom:1px dashed var(--line);padding-bottom:9px;font-size:15px}
+  ul.links span{color:var(--sub);font-weight:400;font-size:13px;display:block}
+  table{width:100%;border-collapse:collapse;font-size:15px}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--sub);font-weight:600;font-size:13px;letter-spacing:.5px}
+  .note{background:#fff8e6;border-left:4px solid #deaa23;border-radius:8px;padding:14px 18px;font-size:14px;margin-top:16px}
+  footer{margin-top:34px;color:#8b99ad;font-size:13px;text-align:center}
+  code{background:#eef2f8;padding:1px 6px;border-radius:4px;font-size:13px}
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">APPLYCHECK / 投前核验</div>
+  <h1>每一项判断，都有原文依据</h1>
+  <p class="lead">
+    用 Lexmount 云浏览器读取实习岗位详情页，保留带 SHA-256 的原文证据，提取学历 / 在校状态 / 实习时长 / 每周出勤 / 毕业时间
+    五类硬门槛，与固定画像比较，<strong>区分「明确条件不匹配」与「信息不足待复核」</strong>，
+    再核验投递入口——真实点击一次后停在登录前，不自动投递。
+  </p>
+  <div class="tags">
+    <span class="tag">20 个真实岗位</span>
+    <span class="tag">规则 0.1.13</span>
+    <span class="tag">70 项测试通过</span>
+    <span class="tag">MIT</span>
+  </div>
+
+  <section>
+    <h2>演示视频 · 68 秒</h2>
+    <p class="hint">1920×1080 / 30fps / 4.16 MB · 由项目真实数据矢量逐帧渲染生成，非屏幕录制</p>
+    <video controls preload="metadata" playsinline poster="media/applycheck-poster-results.png">
+      <source src="media/applycheck-demo.mp4" type="video/mp4">
+      你的浏览器不支持内嵌视频，请直接下载：<a href="media/applycheck-demo.mp4">applycheck-demo.mp4</a>
+    </video>
+  </section>
+
+  <section>
+    <h2>结果总览</h2>
+    <p class="hint">字节跳动 16 + 美团 4 · 同一份画像与规则离线重算 · 条件初筛 ≠ 整体求职资格</p>
+    <div class="stats">
+      <div class="stat"><div class="num red">17</div><div class="lbl">明确条件不匹配</div></div>
+      <div class="stat"><div class="num amber">3</div><div class="lbl">信息不足，待复核</div></div>
+      <div class="stat"><div class="num green">0</div><div class="lbl">已识别硬条件匹配</div></div>
+    </div>
+    <div class="note">
+      固定画像：北京邮电大学（仅展示）· 硕士 · 2025 年已毕业 · 非在校 · 可连续实习 6 个月 · 每周出勤 5 天；毕业月份未提供，不推测月份。
+    </div>
+  </section>
+
+  <section>
+    <h2>判断边界</h2>
+    <table>
+      <tr><th style="width:34%">情形</th><th>结论</th></tr>
+      <tr><td>已知硬条件冲突</td><td>明确条件不匹配</td></tr>
+      <tr><td>无已知冲突但必要信息不足</td><td>信息不足，待复核（不把未知改写成符合）</td></tr>
+      <tr><td>已识别条件满足且完整性规则通过</td><td>已识别的硬条件匹配（不宣称整体资格通过）</td></tr>
+      <tr><td>优先 / 加分 / 更佳</td><td>偏好，不作硬门槛</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>材料链接</h2>
+    <ul class="links">
+      <li><a href="submission/README.md">项目说明与复现指南</a><span>Windows PowerShell 命令、离线演示、产物位置</span></li>
+      <li><a href="submission/evaluation.md">评测说明</a><span>20 岗范围、17/3 结果、AI 复核口径、局限与样本性质</span></li>
+      <li><a href="submission/usage.md">平台用量说明</a><span>17 会话 / 0.237 浏览器小时 / 第三批 5 岗 1 分 04 秒（取证 2026-10-22）</span></li>
+      <li><a href="submission/OFFICIAL_REQUIREMENTS.md">官方要求核对</a><span>官方硬性要求 vs 我们自选的展示方案</span></li>
+      <li><a href="submission/failures-and-fixes.md">主要失败案例与改进</a><span>美团自动发现、空记录、时长漏识别、弹窗遮挡等</span></li>
+      <li><a href="submission/demo-script.md">演示视频镜头表</a><span>12 场景时间轴与重渲染方法</span></li>
+      <li><a href="evaluation/reviewed-20/report.html">统一 20 岗 HTML 报告</a><span>可筛选、含原文证据展开</span></li>
+      <li><a href="evaluation/AI_REVIEW.md">AI 复核说明</a><span>AI 与规则一致性，不是人工金标准</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    Lexmount 云平台真实任务挑战 · ApplyCheck / 投前核验 · MIT License
+  </footer>
+</main>
+</body>
+</html>
