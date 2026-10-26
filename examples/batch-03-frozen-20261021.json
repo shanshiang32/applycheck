@@ -1,0 +1,548 @@
+{
+  "metadata": {
+    "mode": "live",
+    "generated_at": "2026-10-21T09:02:05.097Z",
+    "profile": {
+      "label": "用户提供的匹配画像：硕士，2025年已毕业",
+      "university": "北京邮电大学",
+      "degree": "硕士",
+      "graduation_year": 2025,
+      "graduation_month": null,
+      "is_student": false,
+      "months_available": 6,
+      "days_per_week": 5,
+      "notes": "按用户本次提供的2025年毕业处理为已毕业；未提供月份，不推测具体月份。学校名称仅展示，不参与门槛评分。如实际指2025年入学，应另行更正画像。"
+    },
+    "collector_version": "0.1.12",
+    "note": "真实第三批首次有效采集的冻结副本；规则0.1.8，保留漏识别不短于4个月的原始判断；分发时移除session_id。"
+  },
+  "records": [
+    {
+      "company": "字节跳动",
+      "title": "东南亚电商钱效&资源管理实习生 - TikTok Shop",
+      "url": "https://jobs.bytedance.com/campus/position/7697139720749582645/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7697139720749582645/detail",
+      "observed_at": "2026-10-21T09:02:07.916Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "东南亚电商钱效&资源管理实习生 - TikTok Shop\n上海、北京\n实习\n运营\n日常实习\n职位 ID：A207404\n职位描述\n团队介绍：TikTok Shop 是 TikTok 旗下的内容电商。平台汇聚全球优质商家与创作者，通过短视频、直播等多场景连接消费者，让新奇好物畅销全球，让美好生活触手可得。目前团队分布在美国、英国、法国、印尼、墨西哥、中国等全球多个国家和地区，在这里你将有机会深入国际业务场景，面向全世界商家及用户，和跨区域团队协作，共同探索创新购物模式。期待和优秀的你一起创造更多可能！\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、广告与预算管理：对接财务与外部机构，统筹东南亚区域广告预算管控、账单核对与数据校准，完成预算落地全链路工作，同步开展ROI数据分析，对接外部机构推进结算落地，梳理流程细节，助力内广投放链路提效；\n2、内广运维与流量管理：广告资源审核与运维，把控预算合理性，跟进全流程落地，依托数据看板进行统计分析，协助开展平台品牌流量分配工作，完成月度复盘，沉淀数据经验，输出链路优化、提效相关策略；\n3、资源管理与大促活动落地：国际化东南亚区域营销资源位的统筹管理、全程跟进大型电商活动资源落地，参与活动流量入口搭建与投放跟进，梳理输出营销触达SOP&复盘；\n4、超额补助数据分析与策略复盘：平台补贴资源的数据整理与双周效率复盘，梳理各类补贴项目策略、预算与落地效果，协助复盘投放问题、分析资源利用效率，针对性协助优化平台补贴策略；\n5、业务分析与策略支持：跟踪指标，开展投入产出分析，识别指标变化及原因，支持日常经营复盘，参与业务实验评估与用户分层分析，协助输出分析报告及优化建议，为资源配置和业务策略优化提供数据支持。\n职位要求\n1、本科及以上学历在读；\n2、每周可出勤4-5天，实习期不短于4个月；需要较强的责任心，耐心，注意细节；\n3、可熟练使用SQL和Office工具（尤其Excel），对电商行业有基础理解；\n4、英文熟练，具有良好的适应性；\n5、有咨询公司、实习经验优先。\n投递\n相关职位\n菲律宾时尚行业运营实习生 - TikTok Shop\n上海\n运营\n校招\n职位 ID：A219924A\n策略产品（创作者激励方向）实习生 - TikTok\n上海\n运营\n校招\n职位 ID：A205777\n区域政策运营实习生 - 抖音电商运营\n上海\n运营\n校招\n职位 ID：A190541\n大众消费食品生鲜运营实习生 - 抖音电商运营\n上海\n运营\n校招\n职位 ID：A109125A\n东南亚跨境大促活动运营实习生 - TikTok Shop\n上海\n运营\n校招\n职位 ID：A201226A\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "e681a8273ebc442248c732092aaffed75875a90a544f76e9c95d08a6b5397a9c",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 10347,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7697139720749582645/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 1193
+        }
+      ],
+      "evidence_prefix": "001",
+      "target_title": "东南亚电商钱效&资源管理实习生 - TikTok Shop",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "东南亚电商钱效&资源管理实习生 - TikTok Shop\n上海、北京\n实习\n运营\n日常实习\n职位 ID：A207404\n职位描述\n团队介绍：TikTok Shop 是 TikTok 旗下的内容电商。平台汇聚全球优质商家与创作者，通过短视频、直播等多场景连接消费者，让新奇好物畅销全球，让美好生活触手可得。目前团队分布在美国、英国、法国、印尼、墨西哥、中国等全球多个国家和地区，在这里你将有机会深入国际业务场景，面向全世界商家及用户，和跨区域团队协作，共同探索创新购物模式。期待和优秀的你一起创造更多可能！\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、广告与预算管理：对接财务与外部机构，统筹东南亚区域广告预算管控、账单核对与数据校准，完成预算落地全链路工作，同步开展ROI数据分析，对接外部机构推进结算落地，梳理流程细节，助力内广投放链路提效；\n2、内广运维与流量管理：广告资源审核与运维，把控预算合理性，跟进全流程落地，依托数据看板进行统计分析，协助开展平台品牌流量分配工作，完成月度复盘，沉淀数据经验，输出链路优化、提效相关策略；\n3、资源管理与大促活动落地：国际化东南亚区域营销资源位的统筹管理、全程跟进大型电商活动资源落地，参与活动流量入口搭建与投放跟进，梳理输出营销触达SOP&复盘；\n4、超额补助数据分析与策略复盘：平台补贴资源的数据整理与双周效率复盘，梳理各类补贴项目策略、预算与落地效果，协助复盘投放问题、分析资源利用效率，针对性协助优化平台补贴策略；\n5、业务分析与策略支持：跟踪指标，开展投入产出分析，识别指标变化及原因，支持日常经营复盘，参与业务实验评估与用户分层分析，协助输出分析报告及优化建议，为资源配置和业务策略优化提供数据支持。\n职位要求\n1、本科及以上学历在读；\n2、每周可出勤4-5天，实习期不短于4个月；需要较强的责任心，耐心，注意细节；\n3、可熟练使用SQL和Office工具（尤其Excel），对电商行业有基础理解；\n4、英文熟练，具有良好的适应性；\n5、有咨询公司、实习经验优先。\n投递",
+      "job_body_hash": "24731fa5e1c82a96751a70a5554c63ad89ff04f2f46ff14fac953c3229b46d1f",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "明确条件不匹配",
+        "checks": [
+          {
+            "field": "min_months",
+            "value": 3,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "evidence_clause": "为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 6,
+            "result": "pass"
+          },
+          {
+            "field": "requires_student",
+            "value": true,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "evidence_clause": "日常实习：面向全体在校生",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": false,
+            "result": "fail"
+          },
+          {
+            "field": "requires_student",
+            "value": true,
+            "quote": "1、本科及以上学历在读",
+            "evidence_clause": "1、本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": false,
+            "result": "fail"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、本科及以上学历在读",
+            "evidence_clause": "1、本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": "硕士",
+            "result": "pass"
+          },
+          {
+            "field": "min_days",
+            "value": 4,
+            "quote": "2、每周可出勤4-5天，实习期不短于4个月",
+            "evidence_clause": "2、每周可出勤4-5天",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 5,
+            "result": "pass"
+          }
+        ],
+        "missing": [
+          "graduation_range"
+        ],
+        "rules_version": "0.1.8",
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、在校状态、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "字节跳动",
+      "title": "虚拟业务产品实习生 - 抖音电商",
+      "url": "https://jobs.bytedance.com/campus/position/7697105400872864053/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7697105400872864053/detail",
+      "observed_at": "2026-10-21T09:02:20.193Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "虚拟业务产品实习生 - 抖音电商\n上海\n实习\n产品\n日常实习\n职位 ID：A239791\n职位描述\n团队介绍：抖音电商以“总能发现好东西”为主张，致力于成为用户发现丰富好物的首选平台。众多抖音创作者通过短视频、直播、商城等丰富的形式，给用户提供更个性化、更生动、更高效的消费体验。同时，抖音电商积极引入优质合作伙伴，为商家变现提供多元的选择。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、负责抖音商城APP-充值/游戏娱乐/餐饮/竞拍等频道产品，为用户规模和访问天数负责；\n2、产品设计突出虚拟供给特色，利用补贴策略、互动玩法、商品与直播推荐等手段，打造抖音商城APP的差异认知，在各场景引流并持续刺激用户复访；\n3、分析用户流程和玩法效率，通过数据形成产品认知，优化产品链路，减少漏斗损耗、提升体验；\n4、与行业、开放平台、交易支付等团队紧密协作，解决行业导购链路中的卡点，保障供给稳定性和履约体验。\n职位要求\n1、本科及以上学历在读，理工科（如计算机/通信/数学/统计等）相关专业优先；\n2、具备良好的归因分析、Demo绘制、协作推动能力，对用户有同理心，有电商平台用户增长/互动经验优先；\n3、能保证每周5天出勤，实习期不少于6个月，尽快到岗优先，base上海。\n投递\n相关职位\n产品（Post-click/商业化增长方向）实习生 - 销售运营管理平台\n上海\n产品\n校招\n职位 ID：A82609A\n营销激励产品经理（广告策略方向） - 抖音生活服务\n上海、北京\n产品\n校招\n职位 ID：A233995\n大促数据科学实习生 - 抖音电商\n上海、北京\n产品 - 数据分析\n校招\n职位 ID：A144682\n千川营销数科实习生 - 抖音电商\n上海\n产品 - 数据分析\n校招\n职位 ID：A173541A\n产品实习生 - 抖音电商\n上海、北京\n产品\n校招\n职位 ID：A57821\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "ab1670dc27709e2a44c1e56033a47d4e37fbe59987c64fe33fcea1633beade43",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 10480,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7697105400872864053/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 871
+        }
+      ],
+      "evidence_prefix": "002",
+      "target_title": "虚拟业务产品实习生 - 抖音电商",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "虚拟业务产品实习生 - 抖音电商\n上海\n实习\n产品\n日常实习\n职位 ID：A239791\n职位描述\n团队介绍：抖音电商以“总能发现好东西”为主张，致力于成为用户发现丰富好物的首选平台。众多抖音创作者通过短视频、直播、商城等丰富的形式，给用户提供更个性化、更生动、更高效的消费体验。同时，抖音电商积极引入优质合作伙伴，为商家变现提供多元的选择。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、负责抖音商城APP-充值/游戏娱乐/餐饮/竞拍等频道产品，为用户规模和访问天数负责；\n2、产品设计突出虚拟供给特色，利用补贴策略、互动玩法、商品与直播推荐等手段，打造抖音商城APP的差异认知，在各场景引流并持续刺激用户复访；\n3、分析用户流程和玩法效率，通过数据形成产品认知，优化产品链路，减少漏斗损耗、提升体验；\n4、与行业、开放平台、交易支付等团队紧密协作，解决行业导购链路中的卡点，保障供给稳定性和履约体验。\n职位要求\n1、本科及以上学历在读，理工科（如计算机/通信/数学/统计等）相关专业优先；\n2、具备良好的归因分析、Demo绘制、协作推动能力，对用户有同理心，有电商平台用户增长/互动经验优先；\n3、能保证每周5天出勤，实习期不少于6个月，尽快到岗优先，base上海。\n投递",
+      "job_body_hash": "add72940000e4a4dcaff1f4d73d1276ea56fa3321b31a711a94d3759a1a458b8",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "明确条件不匹配",
+        "checks": [
+          {
+            "field": "min_months",
+            "value": 3,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "evidence_clause": "为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 6,
+            "result": "pass"
+          },
+          {
+            "field": "requires_student",
+            "value": true,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "evidence_clause": "日常实习：面向全体在校生",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": false,
+            "result": "fail"
+          },
+          {
+            "field": "requires_student",
+            "value": true,
+            "quote": "1、本科及以上学历在读，理工科（如计算机/通信/数学/统计等）相关专业优先",
+            "evidence_clause": "1、本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": false,
+            "result": "fail"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、本科及以上学历在读，理工科（如计算机/通信/数学/统计等）相关专业优先",
+            "evidence_clause": "1、本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": "硕士",
+            "result": "pass"
+          },
+          {
+            "field": "min_months",
+            "value": 6,
+            "quote": "3、能保证每周5天出勤，实习期不少于6个月，尽快到岗优先，base上海",
+            "evidence_clause": "实习期不少于6个月",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 6,
+            "result": "pass"
+          },
+          {
+            "field": "min_days",
+            "value": 5,
+            "quote": "3、能保证每周5天出勤，实习期不少于6个月，尽快到岗优先，base上海",
+            "evidence_clause": "3、能保证每周5天出勤",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 5,
+            "result": "pass"
+          }
+        ],
+        "missing": [
+          "graduation_range"
+        ],
+        "rules_version": "0.1.8",
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、在校状态、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "字节跳动",
+      "title": "AI搜索大模型应用产品实习生 - TikTok搜索",
+      "url": "https://jobs.bytedance.com/campus/position/7696094785664190773/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7696094785664190773/detail",
+      "observed_at": "2026-10-21T09:02:32.468Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "AI搜索大模型应用产品实习生 - TikTok搜索\n北京\n实习\n产品\n日常实习\n职位 ID：A225507\n职位描述\n团队介绍：TikTok是一个覆盖150个国家和地区的国际短视频平台，我们希望通过TikTok发现真实、有趣的瞬间，让生活更美好。TikTok在全球各地设有办公室，全球总部位于洛杉矶和新加坡，办公地点还包括纽约、伦敦、都柏林、巴黎、柏林、迪拜、雅加达、首尔和东京等多个城市。\n\nTikTok搜索团队团队依托TikTok独特的内容生态，探索大模型等前沿技术，为用户带来更好的搜索体验。致力于打造全球用户的优选搜索平台、All-in-one的全网信息整合、以及更流畅的用户交互体验。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、参与大模型应用产品的设计与功能开发，从用户视角定义体验标准并推动落地；\n2、与算法、工程、设计等团队紧密协作，全流程参与模型训练、功能上线和实验迭代；\n3、基于模型评测、用户调研和数据反馈，提出改进方案并推动产品迭代；\n4、持续关注行业趋势与前沿研究，为产品创新提供新的思考与启发。\n职位要求\n1、本科及以上学历在读，计算机、人工智能、数据科学、产品设计、用户研究等相关专业优先；\n2、有搜索、推荐、NLP或AI项目经验更佳；\n3、具备良好的英文沟通与写作能力，能够阅读并输出英文材料；\n4、耐心细致，对AI充满热情，学习能力强，逻辑清晰，具备自驱力和团队协作精神；\n5、每周可实习4天。\n投递\n相关职位\nOpenViking产品实习生 - Data AML\n北京\n产品\n校招\n职位 ID：A230346A\nCRM数据分析产品实习生 - 销售运营管理平台\n北京\n产品\n校招\n职位 ID：A136740\n营销激励产品经理（广告策略方向） - 抖音生活服务\n上海、北京\n产品\n校招\n职位 ID：A233995\n技术产品实习生（AI策略/大模型方向） - 中国交易与广告\n北京\n产品\n校招\n职位 ID：A219758\n数据分析实习生 - 抖音电商\n北京\n产品 - 数据分析\n校招\n职位 ID：A15107A\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "535e97acd5a291bab070a3351e0a90a7584bb3d4345814d5ea0196c878535794",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 10213,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7696094785664190773/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 951
+        }
+      ],
+      "evidence_prefix": "003",
+      "target_title": "AI搜索大模型应用产品实习生 - TikTok搜索",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "AI搜索大模型应用产品实习生 - TikTok搜索\n北京\n实习\n产品\n日常实习\n职位 ID：A225507\n职位描述\n团队介绍：TikTok是一个覆盖150个国家和地区的国际短视频平台，我们希望通过TikTok发现真实、有趣的瞬间，让生活更美好。TikTok在全球各地设有办公室，全球总部位于洛杉矶和新加坡，办公地点还包括纽约、伦敦、都柏林、巴黎、柏林、迪拜、雅加达、首尔和东京等多个城市。\n\nTikTok搜索团队团队依托TikTok独特的内容生态，探索大模型等前沿技术，为用户带来更好的搜索体验。致力于打造全球用户的优选搜索平台、All-in-one的全网信息整合、以及更流畅的用户交互体验。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、参与大模型应用产品的设计与功能开发，从用户视角定义体验标准并推动落地；\n2、与算法、工程、设计等团队紧密协作，全流程参与模型训练、功能上线和实验迭代；\n3、基于模型评测、用户调研和数据反馈，提出改进方案并推动产品迭代；\n4、持续关注行业趋势与前沿研究，为产品创新提供新的思考与启发。\n职位要求\n1、本科及以上学历在读，计算机、人工智能、数据科学、产品设计、用户研究等相关专业优先；\n2、有搜索、推荐、NLP或AI项目经验更佳；\n3、具备良好的英文沟通与写作能力，能够阅读并输出英文材料；\n4、耐心细致，对AI充满热情，学习能力强，逻辑清晰，具备自驱力和团队协作精神；\n5、每周可实习4天。\n投递",
+      "job_body_hash": "1103bcdf66d6d839d66a06adbe1ef920ea994c4160766a242dc2621c206aba12",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "明确条件不匹配",
+        "checks": [
+          {
+            "field": "min_months",
+            "value": 3,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "evidence_clause": "为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 6,
+            "result": "pass"
+          },
+          {
+            "field": "requires_student",
+            "value": true,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "evidence_clause": "日常实习：面向全体在校生",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": false,
+            "result": "fail"
+          },
+          {
+            "field": "requires_student",
+            "value": true,
+            "quote": "1、本科及以上学历在读，计算机、人工智能、数据科学、产品设计、用户研究等相关专业优先",
+            "evidence_clause": "1、本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": false,
+            "result": "fail"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、本科及以上学历在读，计算机、人工智能、数据科学、产品设计、用户研究等相关专业优先",
+            "evidence_clause": "1、本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": "硕士",
+            "result": "pass"
+          },
+          {
+            "field": "min_days",
+            "value": 4,
+            "quote": "5、每周可实习4天",
+            "evidence_clause": "5、每周可实习4天",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 5,
+            "result": "pass"
+          }
+        ],
+        "missing": [
+          "graduation_range"
+        ],
+        "rules_version": "0.1.8",
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、在校状态、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "字节跳动",
+      "title": "算法实习生 - 安全与风控",
+      "url": "https://jobs.bytedance.com/campus/position/7690496557922486581/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7690496557922486581/detail",
+      "observed_at": "2026-10-21T09:02:44.417Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "算法实习生 - 安全与风控\n北京、杭州\n实习\n研发 - 安全\n日常实习\n职位 ID：A113198\n职位描述\n团队介绍：我们通过部署先进的安全系统、推行标准化操作流程，构建基于零信任的安全防护体系，提升字节跳动全球办公环境的整体安全态势。我们坚持以主动预防为核心，同时构建敏捷高效的安全响应能力，为全球办公环境提供持续、可靠的安全保障。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、参与内部威胁、数据泄露、权限滥用和异常访问等风险场景的分析与检测，使用Python、SQL对员工行为、设备、权限和资源访问日志进行数据清洗、探索分析和特征构建；\n2、在导师指导下，参与分类、聚类、异常检测、时序建模等算法的开发与实验；\n3、协助处理标签稀缺、类别不平衡、高维稀疏数据和模型误报等问题；\n4、参与模型与检测规则的效果评估，分析误报、漏报及模型失效原因，探索图模型、大语言模型等技术在风险检测、告警研判和证据解释中的应用；\n5、配合算法及工程团队，将实验方案转化为可复现、可维护的代码，并参与生产落地。\n职位要求\n1、本科及以上学历在读，信息安全、计算机科学等相关专业优先；\n2、熟练使用Python，掌握常用数据处理与机器学习工具，如Pandas、NumPy、Scikit-learn、PyTorch等；\n3、掌握SQL，能够独立完成数据提取、清洗和基础分析，并理解常见机器学习方法，对分类、聚类、异常检测或时序建模中的至少一个方向有实践经验；\n4、具备基本的概率统计知识，能够合理设计实验并分析结果；\n5、对安全、风控、反欺诈、反作弊、信任与安全或异常检测方向感兴趣。\n\n优先背景：\n1、有机器学习、数据挖掘、异常检测、时序分析、图学习或大语言模型相关项目经验；\n2、有安全、风控、反欺诈、反作弊或数据分析相关实习、科研或竞赛经历；\n3、使用过真实业务数据，处理过样本不平衡、标签稀缺或高误报问题；\n4、有开源项目、技术博客、论文或高质量竞赛成果；\n5、具备良好的工程习惯，熟悉Git、Linux和基本的软件开发流程。\n投递\n相关职位\n后端开发实习生-安全与风控\n北京\n研发 - 安全\n校招\n职位 ID：A129168A\n隐私技术BP实习生-隐私和数据保护办公室\n北京\n研发 - 安全\n校招\n职位 ID：A201289\n风险治理运营 - 安全与风控\n北京\n研发 - 安全\n校招\n职位 ID：A23180B\n黑灰产情报分析实习生 - 安全与风控\n北京\n研发 - 安全\n校招\n职位 ID：A75318A\nAI工程师（智能安全） - 安全与风控\n北京、杭州\n研发 - 安全\n校招\n职位 ID：A221204\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "692df1f20bc523977a5f5cb7de61dd0bb37d247d1aed010582b4174e038c5a9b",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 11362,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7690496557922486581/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 1180
+        }
+      ],
+      "evidence_prefix": "004",
+      "target_title": "算法实习生 - 安全与风控",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "算法实习生 - 安全与风控\n北京、杭州\n实习\n研发 - 安全\n日常实习\n职位 ID：A113198\n职位描述\n团队介绍：我们通过部署先进的安全系统、推行标准化操作流程，构建基于零信任的安全防护体系，提升字节跳动全球办公环境的整体安全态势。我们坚持以主动预防为核心，同时构建敏捷高效的安全响应能力，为全球办公环境提供持续、可靠的安全保障。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、参与内部威胁、数据泄露、权限滥用和异常访问等风险场景的分析与检测，使用Python、SQL对员工行为、设备、权限和资源访问日志进行数据清洗、探索分析和特征构建；\n2、在导师指导下，参与分类、聚类、异常检测、时序建模等算法的开发与实验；\n3、协助处理标签稀缺、类别不平衡、高维稀疏数据和模型误报等问题；\n4、参与模型与检测规则的效果评估，分析误报、漏报及模型失效原因，探索图模型、大语言模型等技术在风险检测、告警研判和证据解释中的应用；\n5、配合算法及工程团队，将实验方案转化为可复现、可维护的代码，并参与生产落地。\n职位要求\n1、本科及以上学历在读，信息安全、计算机科学等相关专业优先；\n2、熟练使用Python，掌握常用数据处理与机器学习工具，如Pandas、NumPy、Scikit-learn、PyTorch等；\n3、掌握SQL，能够独立完成数据提取、清洗和基础分析，并理解常见机器学习方法，对分类、聚类、异常检测或时序建模中的至少一个方向有实践经验；\n4、具备基本的概率统计知识，能够合理设计实验并分析结果；\n5、对安全、风控、反欺诈、反作弊、信任与安全或异常检测方向感兴趣。\n\n优先背景：\n1、有机器学习、数据挖掘、异常检测、时序分析、图学习或大语言模型相关项目经验；\n2、有安全、风控、反欺诈、反作弊或数据分析相关实习、科研或竞赛经历；\n3、使用过真实业务数据，处理过样本不平衡、标签稀缺或高误报问题；\n4、有开源项目、技术博客、论文或高质量竞赛成果；\n5、具备良好的工程习惯，熟悉Git、Linux和基本的软件开发流程。\n投递",
+      "job_body_hash": "5bc1daa87652b3d3b987ec96d496e5595b8717f9e976638ed744412089316f58",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "明确条件不匹配",
+        "checks": [
+          {
+            "field": "min_months",
+            "value": 3,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "evidence_clause": "为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 6,
+            "result": "pass"
+          },
+          {
+            "field": "requires_student",
+            "value": true,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "evidence_clause": "日常实习：面向全体在校生",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": false,
+            "result": "fail"
+          },
+          {
+            "field": "requires_student",
+            "value": true,
+            "quote": "1、本科及以上学历在读，信息安全、计算机科学等相关专业优先",
+            "evidence_clause": "1、本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": false,
+            "result": "fail"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、本科及以上学历在读，信息安全、计算机科学等相关专业优先",
+            "evidence_clause": "1、本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": "硕士",
+            "result": "pass"
+          }
+        ],
+        "missing": [
+          "min_days",
+          "graduation_range"
+        ],
+        "rules_version": "0.1.8",
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、在校状态、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "字节跳动",
+      "title": "黑灰产情报分析实习生 - 安全与风控",
+      "url": "https://jobs.bytedance.com/campus/position/7667559280287271173/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7667559280287271173/detail",
+      "observed_at": "2026-10-21T09:02:57.463Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "黑灰产情报分析实习生 - 安全与风控\n北京\n实习\n研发 - 安全\nByteIntern\n职位 ID：A75318A\n职位描述\n团队介绍：我们通过部署先进的安全系统、推行标准化操作流程，构建基于零信任的安全防护体系，提升字节跳动全球办公环境的整体安全态势。我们坚持以主动预防为核心，同时构建敏捷高效的安全响应能力，为全球办公环境提供持续、可靠的安全保障。\n\nByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业），为符合岗位要求的同学提供转正机会。\n\n1、参与内部威胁、数据泄露、权限滥用和异常访问等风险场景的分析与检测；\n2、使用Python、SQL对员工行为、设备、权限和资源访问日志进行数据清洗、探索分析和特征构建；在导师指导下，参与分类、聚类、异常检测、时序建模等算法的开发与实验；\n3、协助处理标签稀缺、类别不平衡、高维稀疏数据和模型误报等问题；参与模型与检测规则的效果评估，分析误报、漏报及模型失效原因；\n4、探索图模型、大语言模型等技术在风险检测、告警研判和证据解释中的应用；配合算法及工程团队，将实验方案转化为可复现、可维护的代码，并参与生产落地。\n职位要求\n1、2027届本科及以上学历在读，信息安全、计算机科学等相关专业优先；\n2、考虑问题富有前瞻性，逻辑思维强，具备分析复杂问题的能力，有黑灰产运营经验的优先；\n3、对各类业务风险敏锐感知，有深入挖掘的精神，具备风险情报收集能力和数据分析能力，有大数据处理相关工作经验优先；\n4、思路清晰，善于主动思考，有创新、能独立分析和解决问题，拥有强烈的责任心和团队合作精神，出色的学习能力。\n投递\n相关职位\n后端开发实习生-安全与风控\n北京\n研发 - 安全\n校招\n职位 ID：A129168A\n隐私技术BP实习生-隐私和数据保护办公室\n北京\n研发 - 安全\n校招\n职位 ID：A201289\n风险治理运营 - 安全与风控\n北京\n研发 - 安全\n校招\n职位 ID：A23180B\nAI工程师（智能安全） - 安全与风控\n北京、杭州\n研发 - 安全\n校招\n职位 ID：A221204\n算法实习生 - 安全与风控\n北京、杭州\n研发 - 安全\n校招\n职位 ID：A113198\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "d51af7268c7b920819019c8409d588cc77c8c1955eac77ec03375ea0b3d6cbea",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 12988,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7667559280287271173/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 987
+        }
+      ],
+      "evidence_prefix": "005",
+      "target_title": "黑灰产情报分析实习生 - 安全与风控",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "黑灰产情报分析实习生 - 安全与风控\n北京\n实习\n研发 - 安全\nByteIntern\n职位 ID：A75318A\n职位描述\n团队介绍：我们通过部署先进的安全系统、推行标准化操作流程，构建基于零信任的安全防护体系，提升字节跳动全球办公环境的整体安全态势。我们坚持以主动预防为核心，同时构建敏捷高效的安全响应能力，为全球办公环境提供持续、可靠的安全保障。\n\nByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业），为符合岗位要求的同学提供转正机会。\n\n1、参与内部威胁、数据泄露、权限滥用和异常访问等风险场景的分析与检测；\n2、使用Python、SQL对员工行为、设备、权限和资源访问日志进行数据清洗、探索分析和特征构建；在导师指导下，参与分类、聚类、异常检测、时序建模等算法的开发与实验；\n3、协助处理标签稀缺、类别不平衡、高维稀疏数据和模型误报等问题；参与模型与检测规则的效果评估，分析误报、漏报及模型失效原因；\n4、探索图模型、大语言模型等技术在风险检测、告警研判和证据解释中的应用；配合算法及工程团队，将实验方案转化为可复现、可维护的代码，并参与生产落地。\n职位要求\n1、2027届本科及以上学历在读，信息安全、计算机科学等相关专业优先；\n2、考虑问题富有前瞻性，逻辑思维强，具备分析复杂问题的能力，有黑灰产运营经验的优先；\n3、对各类业务风险敏锐感知，有深入挖掘的精神，具备风险情报收集能力和数据分析能力，有大数据处理相关工作经验优先；\n4、思路清晰，善于主动思考，有创新、能独立分析和解决问题，拥有强烈的责任心和团队合作精神，出色的学习能力。\n投递",
+      "job_body_hash": "8e70353f528654b9ec58cc1e89cd2090002279eefb51c3204bef738ee65615c9",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "明确条件不匹配",
+        "checks": [
+          {
+            "field": "graduation_range",
+            "value": [
+              "2026-09",
+              "2027-08"
+            ],
+            "quote": "ByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业），为符合岗位要求的同学提供转正机会",
+            "evidence_clause": "ByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业）",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": "2025（仅年份）",
+            "result": "fail",
+            "precision": "year",
+            "note": "仅依据已知年份判断，未推测毕业月份"
+          },
+          {
+            "field": "requires_student",
+            "value": true,
+            "quote": "1、2027届本科及以上学历在读，信息安全、计算机科学等相关专业优先",
+            "evidence_clause": "1、2027届本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": false,
+            "result": "fail"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、2027届本科及以上学历在读，信息安全、计算机科学等相关专业优先",
+            "evidence_clause": "1、2027届本科及以上学历在读",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": "硕士",
+            "result": "pass"
+          }
+        ],
+        "missing": [
+          "min_months",
+          "min_days"
+        ],
+        "rules_version": "0.1.8",
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、在校状态、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    }
+  ]
+}

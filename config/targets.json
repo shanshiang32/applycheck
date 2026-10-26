@@ -1,0 +1,23 @@
+[
+  {
+    "company": "字节跳动",
+    "title": "通用Agent评测运营实习生 - AI数据与安全",
+    "url": "https://jobs.bytedance.com/campus/position/7697165545238038837/detail",
+    "allowed_hosts": ["jobs.bytedance.com"],
+    "provenance": "2026-10-19 官网列表公开链接；详情与申请入口尚未经 Lexmount 实测"
+  },
+  {
+    "company": "字节跳动",
+    "title": "广告大模型算法实习生 - 内容消费与非闭环营销",
+    "url": "https://jobs.bytedance.com/campus/position/7595202773370308869/detail",
+    "allowed_hosts": ["jobs.bytedance.com"],
+    "provenance": "2026-10-19 官网列表公开链接；包含 ByteIntern 项目，不能与日常实习混同"
+  },
+  {
+    "company": "字节跳动",
+    "title": "后端开发实习生-飞书办公套件",
+    "url": "https://jobs.bytedance.com/campus/position/7596917376227182901/detail",
+    "allowed_hosts": ["jobs.bytedance.com"],
+    "provenance": "2026-10-19 官网列表公开链接；不是已验证可投岗位"
+  }
+]

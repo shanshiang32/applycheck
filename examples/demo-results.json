@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "mode": "synthetic",
+    "generated_at": "2026-10-19T14:57:26.866Z",
+    "note": "所有公司、岗位和条件均为合成测试，用户条件也是假设值，不能作为比赛成果。"
+  },
+  "records": [
+    {
+      "id": "A",
+      "company": "演示企业 A（虚构）",
+      "title": "开发实习生（合成示例）",
+      "body": "岗位职责：协助开发网页工具。\n任职要求：本科及以上学历。\n保证实习至少3个月。\n每周到岗至少4天。\n面向2028年9月-2029年8月期间毕业的在校生。",
+      "url": "https://example.com/synthetic/A",
+      "provider": "synthetic",
+      "observed_at": "2026-10-19T14:57:26.864Z",
+      "body_hash": "2fe78efb9d7cbab73072b03b6f24e80aa708cc9dee8fd6388ff1aee52d1a7010",
+      "content_state": "合成示例",
+      "entry_state": "演示，未核验",
+      "assessment": {
+        "status": "已识别的硬条件匹配",
+        "checks": [
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "任职要求：本科及以上学历",
+            "strength": "hard",
+            "actual": "本科",
+            "result": "pass"
+          },
+          {
+            "field": "min_months",
+            "value": 3,
+            "quote": "保证实习至少3个月",
+            "strength": "hard",
+            "actual": 3,
+            "result": "pass"
+          },
+          {
+            "field": "min_days",
+            "value": 4,
+            "quote": "每周到岗至少4天",
+            "strength": "hard",
+            "actual": 4,
+            "result": "pass"
+          },
+          {
+            "field": "graduation_range",
+            "value": [
+              "2028-09",
+              "2029-08"
+            ],
+            "quote": "面向2028年9月-2029年8月期间毕业的在校生",
+            "strength": "hard",
+            "actual": "2029-06",
+            "result": "pass"
+          }
+        ],
+        "missing": [],
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "id": "B",
+      "company": "演示企业 B（虚构）",
+      "title": "算法实习生（合成示例）",
+      "body": "岗位职责：模型评测。\n任职要求：硕士及以上学历。\n实习不少于6个月。\n每周至少5天。\n面向2026年9月-2027年8月期间毕业的同学。",
+      "url": "https://example.com/synthetic/B",
+      "provider": "synthetic",
+      "observed_at": "2026-10-19T14:57:26.866Z",
+      "body_hash": "c58faeb78040ed8f8aa01c356480f765a31928fa9d12a6b8c3639f1b98442ff3",
+      "content_state": "合成示例",
+      "entry_state": "演示，未核验",
+      "assessment": {
+        "status": "明确条件不匹配",
+        "checks": [
+          {
+            "field": "min_degree",
+            "value": "硕士",
+            "quote": "任职要求：硕士及以上学历",
+            "strength": "hard",
+            "actual": "本科",
+            "result": "fail"
+          },
+          {
+            "field": "min_months",
+            "value": 6,
+            "quote": "实习不少于6个月",
+            "strength": "hard",
+            "actual": 3,
+            "result": "fail"
+          },
+          {
+            "field": "min_days",
+            "value": 5,
+            "quote": "每周至少5天",
+            "strength": "hard",
+            "actual": 4,
+            "result": "fail"
+          },
+          {
+            "field": "graduation_range",
+            "value": [
+              "2026-09",
+              "2027-08"
+            ],
+            "quote": "面向2026年9月-2027年8月期间毕业的同学",
+            "strength": "hard",
+            "actual": "2029-06",
+            "result": "fail"
+          }
+        ],
+        "missing": [],
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "id": "C",
+      "company": "演示企业 C（虚构）",
+      "title": "产品实习生（合成示例）",
+      "body": "岗位职责：整理反馈。\n职位要求：热爱产品，有责任心。\n有实习经历优先。\n实习6个月以上优先。",
+      "url": "https://example.com/synthetic/C",
+      "provider": "synthetic",
+      "observed_at": "2026-10-19T14:57:26.866Z",
+      "body_hash": "414aefc232739881c4ee1835701efb97bea6e27d33fc1d07341f1a7f3ea0136f",
+      "content_state": "合成示例",
+      "entry_state": "演示，未核验",
+      "assessment": {
+        "status": "信息不足，待复核",
+        "checks": [
+          {
+            "field": "min_months",
+            "value": 6,
+            "quote": "实习6个月以上优先",
+            "strength": "preferred",
+            "actual": 3,
+            "result": "preference_gap"
+          }
+        ],
+        "missing": [
+          "min_degree",
+          "min_months",
+          "min_days",
+          "graduation_range"
+        ],
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "applycheck-lexmount",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "投前核验：带原文证据的实习岗位条件与入口核验",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "doctor": "node cli.mjs doctor",
+    "demo": "node cli.mjs demo",
+    "test": "node --test tests/*.test.mjs",
+    "discover": "node cli.mjs discover",
+    "collect": "node cli.mjs collect",
+    "analyze": "node cli.mjs analyze",
+    "compare": "node cli.mjs compare"
+  },
+  "dependencies": {"lexmount": "0.6.1", "playwright": "1.63.0"}
+}

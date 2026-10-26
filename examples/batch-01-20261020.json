@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "mode": "regression_fixture",
+    "note": "2026-10-20 实际公开网页采集的离线回归样本，删除会话标识与用户配置；不代表新的云端运行。"
+  },
+  "records": [
+    {
+      "company": "字节跳动",
+      "title": "数据分析实习生 - 抖音电商",
+      "url": "https://jobs.bytedance.com/campus/position/7697086106714065157/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7697086106714065157/detail",
+      "observed_at": "2026-10-20T14:22:30.209Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "数据分析实习生 - 抖音电商\n北京\n实习\n产品 - 数据分析\n日常实习\n职位 ID：A15107A\n职位描述\n团队介绍：抖音电商以“总能发现好东西”为主张，致力于成为用户发现丰富好物的首选平台。众多抖音创作者通过短视频、直播、商城等丰富的形式，给用户提供更个性化、更生动、更高效的消费体验。同时，抖音电商积极引入优质合作伙伴，为商家变现提供多元的选择。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、流量策略方向实习生，负责电商直播场景下的内容生态结构相关分析，深入分析直播内容供给、用户消费行为、达人经营表现与交易转化链路，识别影响生态效率和用户体验的关键问题；\n2、持续跟踪策略效果，通过A/B实验、归因分析、分层分析等方式评估收益与风险，推动策略持续优化。\n职位要求\n1、本科及以上学历在读；\n2、有互联网产品、策略、运营或数据分析相关经验，有内容分发、推荐策略、直播、电商、治理生态经验者优先；\n3、具备较强的数据分析能力，能够基于数据发现问题、拆解问题并推动策略落地，熟悉实验设计与指标评估方法；\n4、结果导向，具备较强责任心和自驱力，能适应快速变化的业务环境。\n投递\n相关职位\n数据科学实习生-抖音电商\n北京\n产品 - 数据分析\n校招\n职位 ID：A247728\n直播数据科学 - 音视频技术\n上海、北京\n产品 - 数据分析\n校招\n职位 ID：A155436B\n数据科学 - TikTok\n上海、北京\n产品 - 数据分析\n校招\n职位 ID：A22722A\n数据科学实习生 - 抖音电商\n北京\n产品 - 数据分析\n校招\n职位 ID：A65318\n大促数据科学实习生 - 抖音电商\n上海、北京\n产品 - 数据分析\n校招\n职位 ID：A144682\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "27b9dc1ccff84fecf7242da948a9dfb556d1bab0b92e1b6777612c2ab9529a98",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 11064,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7697086106714065157/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 807
+        }
+      ],
+      "evidence_prefix": "001",
+      "target_title": "数据分析实习生 - 抖音电商",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "数据分析实习生 - 抖音电商\n北京\n实习\n产品 - 数据分析\n日常实习\n职位 ID：A15107A\n职位描述\n团队介绍：抖音电商以“总能发现好东西”为主张，致力于成为用户发现丰富好物的首选平台。众多抖音创作者通过短视频、直播、商城等丰富的形式，给用户提供更个性化、更生动、更高效的消费体验。同时，抖音电商积极引入优质合作伙伴，为商家变现提供多元的选择。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、流量策略方向实习生，负责电商直播场景下的内容生态结构相关分析，深入分析直播内容供给、用户消费行为、达人经营表现与交易转化链路，识别影响生态效率和用户体验的关键问题；\n2、持续跟踪策略效果，通过A/B实验、归因分析、分层分析等方式评估收益与风险，推动策略持续优化。\n职位要求\n1、本科及以上学历在读；\n2、有互联网产品、策略、运营或数据分析相关经验，有内容分发、推荐策略、直播、电商、治理生态经验者优先；\n3、具备较强的数据分析能力，能够基于数据发现问题、拆解问题并推动策略落地，熟悉实验设计与指标评估方法；\n4、结果导向，具备较强责任心和自驱力，能适应快速变化的业务环境。\n投递",
+      "job_body_hash": "4c08e5a99da660761a6c7ebbccb7246856d9746fe41969d4fe0da3a62aad154d",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "信息不足，待复核",
+        "checks": [
+          {
+            "field": "min_months",
+            "value": 3,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "strength": "hard",
+            "actual": null,
+            "result": "unknown"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、本科及以上学历在读",
+            "strength": "hard",
+            "actual": null,
+            "result": "unknown"
+          }
+        ],
+        "missing": [
+          "min_days",
+          "graduation_range"
+        ],
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "字节跳动",
+      "title": "策略产品（创作者激励方向）实习生 - TikTok",
+      "url": "https://jobs.bytedance.com/campus/position/7695984069211228421/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7695984069211228421/detail",
+      "observed_at": "2026-10-20T14:22:42.954Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "策略产品（创作者激励方向）实习生 - TikTok\n上海\n实习\n运营\n日常实习\n职位 ID：A205777\n职位描述\n团队介绍：TikTok是一个覆盖150个国家和地区的国际短视频平台，我们希望通过TikTok发现真实、有趣的瞬间，让生活更美好。TikTok在全球各地设有办公室，全球总部位于洛杉矶和新加坡，办公地点还包括纽约、伦敦、都柏林、巴黎、柏林、迪拜、雅加达、首尔和东京等多个城市。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、负责TikTok Creator Rewards Program方向的策略产品设计，以优质创作者规模、投稿转化为目标，负责收入诊断、收益解释及激励信息展示等产品能力建设，利用AI工具提升收入诊断效率；\n2、开展数据分析与策略效果复盘，整理不同创作者群体的表现，完成创作者激励策略配置、效果评估与收益拆解相关工作；\n3、与研发、数据和运营等团队协作，跟进需求交付与问题解决，结合上线反馈持续优化创作者体验。\n职位要求\n1、本科及以上学历在读，专业不限；\n2、有内容平台、产品、数据分析或策略运营相关经历者优先，有AI应用相关经验优；\n3、逻辑清晰、对数据敏感，有一定的数据分析与业务分析能力；具备基础SQL查询与聚合能力；\n4、对内容平台及创作者生态有兴趣，愿意从用户视角理解收入和激励规则，能把复杂问题整理成清楚的文档或方案；\n5、英文沟通能力良好，有国际化多区域项目经验者优先；\n6、能保证每周出勤4天及以上，连续实习4个月及以上者优先，可长期实习者加分。\n投递\n相关职位\n菲律宾时尚行业运营实习生 - TikTok Shop\n上海\n运营\n校招\n职位 ID：A219924A\n机构运营实习生 - TikTok生活服务\n上海\n运营\n校招\n职位 ID：A225573A\nUS大促数据科学实习生 - TikTok Shop\n上海\n运营\n校招\n职位 ID：A168368\n区域政策运营实习生 - 抖音电商运营\n上海\n运营\n校招\n职位 ID：A190541\n大众消费食品生鲜运营实习生 - 抖音电商运营\n上海\n运营\n校招\n职位 ID：A109125A\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "a15970e09843293c94909005c1099daa2f35c98f6dfabbc3bc44e31cbd0fdcec",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 11076,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7695984069211228421/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 970
+        }
+      ],
+      "evidence_prefix": "002",
+      "target_title": "策略产品（创作者激励方向）实习生 - TikTok",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "策略产品（创作者激励方向）实习生 - TikTok\n上海\n实习\n运营\n日常实习\n职位 ID：A205777\n职位描述\n团队介绍：TikTok是一个覆盖150个国家和地区的国际短视频平台，我们希望通过TikTok发现真实、有趣的瞬间，让生活更美好。TikTok在全球各地设有办公室，全球总部位于洛杉矶和新加坡，办公地点还包括纽约、伦敦、都柏林、巴黎、柏林、迪拜、雅加达、首尔和东京等多个城市。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、负责TikTok Creator Rewards Program方向的策略产品设计，以优质创作者规模、投稿转化为目标，负责收入诊断、收益解释及激励信息展示等产品能力建设，利用AI工具提升收入诊断效率；\n2、开展数据分析与策略效果复盘，整理不同创作者群体的表现，完成创作者激励策略配置、效果评估与收益拆解相关工作；\n3、与研发、数据和运营等团队协作，跟进需求交付与问题解决，结合上线反馈持续优化创作者体验。\n职位要求\n1、本科及以上学历在读，专业不限；\n2、有内容平台、产品、数据分析或策略运营相关经历者优先，有AI应用相关经验优；\n3、逻辑清晰、对数据敏感，有一定的数据分析与业务分析能力；具备基础SQL查询与聚合能力；\n4、对内容平台及创作者生态有兴趣，愿意从用户视角理解收入和激励规则，能把复杂问题整理成清楚的文档或方案；\n5、英文沟通能力良好，有国际化多区域项目经验者优先；\n6、能保证每周出勤4天及以上，连续实习4个月及以上者优先，可长期实习者加分。\n投递",
+      "job_body_hash": "8c245784aabd377702f7efe92926750a03814fd00245ad0ca1aee0fac1cee67e",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "信息不足，待复核",
+        "checks": [
+          {
+            "field": "min_months",
+            "value": 3,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "strength": "hard",
+            "actual": null,
+            "result": "unknown"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、本科及以上学历在读，专业不限",
+            "strength": "hard",
+            "actual": null,
+            "result": "unknown"
+          },
+          {
+            "field": "min_months",
+            "value": 4,
+            "quote": "6、能保证每周出勤4天及以上，连续实习4个月及以上者优先，可长期实习者加分",
+            "strength": "preferred",
+            "actual": null,
+            "result": "unknown"
+          },
+          {
+            "field": "min_days",
+            "value": 4,
+            "quote": "6、能保证每周出勤4天及以上，连续实习4个月及以上者优先，可长期实习者加分",
+            "strength": "preferred",
+            "actual": null,
+            "result": "unknown"
+          }
+        ],
+        "missing": [
+          "min_days",
+          "graduation_range"
+        ],
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "字节跳动",
+      "title": "CRM数据分析产品实习生 - 销售运营管理平台",
+      "url": "https://jobs.bytedance.com/campus/position/7684198381504170245/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7684198381504170245/detail",
+      "observed_at": "2026-10-20T14:22:55.712Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "CRM数据分析产品实习生 - 销售运营管理平台\n北京\n实习\n产品\n日常实习\n职位 ID：A136740\n职位描述\n团队介绍：国际化销售运营管理平台团队成立于2022年1月，作为国际商业化产品与技术组织的一部分，整合了之前全球CRM（又名3M平台）团队的几个子支柱。我们的团队旨在赋能全球业务解决方案（GBS）团队，通过3M平台和生态系统中的工具和解决方案，通过高效的销售流程和可信的数据洞察，推动业务增长。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、参与数据分析、洞察产品方向的需求调研、产品分析与行业研究，重点关注分析类产品、智能体（Agent）在客户运营、销售日常业绩跟进的建设，协助销售识别业务机会并沉淀结构化洞察；\n2、跟进AI数据查询、分析场景的数据接入及评测；\n3、跟进项目全生命周期，支持需求排期、开发联调、上线验收及效果复盘，推动关键问题闭环解决；\n4、结合业务反馈、数据表现与用户使用情况，持续优化产品能力，提升平台效率、使用体验和客户经营质量。\n职位要求\n1、本科及以上学历在读，统计学、数学、计算机、信息管理、商业分析等相关专业优先；\n2、实习时长不少于6个月，每周不少于五天，能够保持稳定、连续的实习投入；\n3、具备扎实的产品调研能力与PRD撰写功底，能够独立完成基础的信息收集、分析归纳与文档输出，熟练使用AI工具（如大模型对话、AI辅助分析/文档/原型等），对AI如何提升CRM与业务效率有独立思考者加分，对AI产品、智能分析、Agent、数据工具方向有持续关注和理解；\n4、了解CRM、客户运营、销售或营销自动化相关业务流程者优先，能够快速理解复杂业务规则与平台逻辑，具备CRM、SaaS或企业级产品实习经验优先；\n5、英语听说读写能力优秀，能够适应全球化团队的日常沟通与跨团队协作；\n6、有从0到1参与项目探索、产品分析或产品方案设计经验，有主流AI工具实战经验优先，熟练使用Claude、Codex等大模型工具，能够结合业务场景提效落地。\n\n加分项：\n1、有数据分析、可视化看板或数据产品相关实习经历。\n投递\n相关职位\n交易产品经理 - 财经业务\n北京\n产品 - 产品经理\n校招\n职位 ID：A162017\n营销激励产品经理（广告策略方向） - 抖音生活服务\n上海、北京\n产品\n校招\n职位 ID：A233995\n技术产品实习生（AI策略/大模型方向） - 中国交易与广告\n北京\n产品\n校招\n职位 ID：A219758\n产品实习生 - 抖音电商\n上海、北京\n产品\n校招\n职位 ID：A57821\n数据分析实习生 - 抖音电商\n北京\n产品 - 数据分析\n校招\n职位 ID：A15107A\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "225b980428c1dbc35f7b3fa14dec80c97bc4c170b266db0a772649c95a033307",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 11810,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7684198381504170245/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 1190
+        }
+      ],
+      "evidence_prefix": "003",
+      "target_title": "CRM数据分析产品实习生 - 销售运营管理平台",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "CRM数据分析产品实习生 - 销售运营管理平台\n北京\n实习\n产品\n日常实习\n职位 ID：A136740\n职位描述\n团队介绍：国际化销售运营管理平台团队成立于2022年1月，作为国际商业化产品与技术组织的一部分，整合了之前全球CRM（又名3M平台）团队的几个子支柱。我们的团队旨在赋能全球业务解决方案（GBS）团队，通过3M平台和生态系统中的工具和解决方案，通过高效的销售流程和可信的数据洞察，推动业务增长。\n\n日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会。\n\n1、参与数据分析、洞察产品方向的需求调研、产品分析与行业研究，重点关注分析类产品、智能体（Agent）在客户运营、销售日常业绩跟进的建设，协助销售识别业务机会并沉淀结构化洞察；\n2、跟进AI数据查询、分析场景的数据接入及评测；\n3、跟进项目全生命周期，支持需求排期、开发联调、上线验收及效果复盘，推动关键问题闭环解决；\n4、结合业务反馈、数据表现与用户使用情况，持续优化产品能力，提升平台效率、使用体验和客户经营质量。\n职位要求\n1、本科及以上学历在读，统计学、数学、计算机、信息管理、商业分析等相关专业优先；\n2、实习时长不少于6个月，每周不少于五天，能够保持稳定、连续的实习投入；\n3、具备扎实的产品调研能力与PRD撰写功底，能够独立完成基础的信息收集、分析归纳与文档输出，熟练使用AI工具（如大模型对话、AI辅助分析/文档/原型等），对AI如何提升CRM与业务效率有独立思考者加分，对AI产品、智能分析、Agent、数据工具方向有持续关注和理解；\n4、了解CRM、客户运营、销售或营销自动化相关业务流程者优先，能够快速理解复杂业务规则与平台逻辑，具备CRM、SaaS或企业级产品实习经验优先；\n5、英语听说读写能力优秀，能够适应全球化团队的日常沟通与跨团队协作；\n6、有从0到1参与项目探索、产品分析或产品方案设计经验，有主流AI工具实战经验优先，熟练使用Claude、Codex等大模型工具，能够结合业务场景提效落地。\n\n加分项：\n1、有数据分析、可视化看板或数据产品相关实习经历。\n投递",
+      "job_body_hash": "8fec6668934320a161fc682d5f31c977e3efe2fcacf9924529bd8eb91fe8c7ad",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "信息不足，待复核",
+        "checks": [
+          {
+            "field": "min_months",
+            "value": 3,
+            "quote": "日常实习：面向全体在校生，为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+            "strength": "hard",
+            "actual": null,
+            "result": "unknown"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、本科及以上学历在读，统计学、数学、计算机、信息管理、商业分析等相关专业优先",
+            "strength": "preferred",
+            "actual": null,
+            "result": "unknown"
+          },
+          {
+            "field": "min_months",
+            "value": 6,
+            "quote": "2、实习时长不少于6个月，每周不少于五天，能够保持稳定、连续的实习投入",
+            "strength": "hard",
+            "actual": null,
+            "result": "unknown"
+          },
+          {
+            "field": "min_days",
+            "value": 5,
+            "quote": "2、实习时长不少于6个月，每周不少于五天，能够保持稳定、连续的实习投入",
+            "strength": "hard",
+            "actual": null,
+            "result": "unknown"
+          }
+        ],
+        "missing": [
+          "min_degree",
+          "graduation_range"
+        ],
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "字节跳动",
+      "title": "编译器开发实习生-App Infra",
+      "url": "https://jobs.bytedance.com/campus/position/7633861113767807237/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7633861113767807237/detail",
+      "observed_at": "2026-10-20T14:23:09.184Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "编译器开发实习生-App Infra\n杭州\n实习\n研发 - 基础架构\nByteIntern\n职位 ID：A138157A\n职位描述\nByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业），为符合岗位要求的同学提供转正机会。\n团队介绍：App Infra是字节跳动面向应用的基建中台部门，以App侧性能/稳定性深度优化为基础，结合LLM、Agent、生成式推荐模型等前沿技术，为字节跳动旗下的核心应用提供终端+平台的解决方案。于下层，结合操作系统、虚拟机、工具链、编译器等技术，建设了稳定性、流畅性、电量在内全链路的监控体系和调试分析工具；于上层，则结合端侧特征工程、深度学习模型/决策树模型/SLM 训练等基建，围绕搜索/推荐/广告/直播/电商等场景，建设了云端协同推荐、品质体验优化等端智能解决方案。如果你热爱挑战底层技术、追求极致优化，又渴望把AI转化为千万用户感受得到的流畅与智能——欢迎加入，和我们一起打造下一代移动体验！\n\n1、负责编译工具链优化能力建设，基于Redex/R8实现字节码优化，或基于LLVM实现二进制产物优化，持续提升程序运行性能；\n2、负责跟进业内及学术界Toolchain领域前沿技术进展，开展可行性验证并推动落地；\n3、负责探索LLM在性能优化和Toolchain优化的应用，推进相关技术研究与落地。\n职位要求\n1、2027届本科及以上学历在读，计算机、软件工程等相关专业优先；\n2、熟练掌握C++/Java/Kotlin/Objective-C/Swift之一；\n3、有较强的分析问题和解决问题的能力，追求卓越，团队意识强；\n4、优秀的团队沟通与协作能力。\n\n以下任一领域有相关经验者优先：\n1、熟悉一个虚拟机（ART/OpenJDK/GraalVM）或一种语言运行时，具备运行时系统、GC、Interpreter、JIT/AOT编译器等相关经验；\n2、熟悉Redex/R8/LLVM，具备编译器功能开发，以及优化Pass、PGO、LTO/ThinLTO、BOLT等相关经验；\n3、有程序静态分析学术研究或开发相关经验。\n投递\n相关职位\n稳定性Agent工程师 - 国际支付\n深圳、杭州\n研发 - 基础架构\n校招\n职位 ID：A23012\n高性能网络研发工程师 - AI算力基础设施\n北京、杭州\n研发 - 基础架构\n校招\n职位 ID：A157496A\nAI/大模型网络研发工程师 - AI算力基础设施\n北京、杭州\n研发 - 基础架构\n校招\n职位 ID：A38182\n语音多模态高性能计算研发工程师 - Data语音\n北京、上海、杭州\n研发 - 基础架构\n校招\n职位 ID：A257761A\n云网络开发工程师 - AI算力基础设施\n北京、深圳、杭州等 5 个城市\n研发 - 基础架构\n校招\n职位 ID：A14857\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "69b2e126f7bf3e83b8ad422b010c11ac39ddcf92e28b468c22494059cc8d8a1e",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 11217,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7633861113767807237/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 1245
+        }
+      ],
+      "evidence_prefix": "004",
+      "target_title": "编译器开发实习生-App Infra",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "编译器开发实习生-App Infra\n杭州\n实习\n研发 - 基础架构\nByteIntern\n职位 ID：A138157A\n职位描述\nByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业），为符合岗位要求的同学提供转正机会。\n团队介绍：App Infra是字节跳动面向应用的基建中台部门，以App侧性能/稳定性深度优化为基础，结合LLM、Agent、生成式推荐模型等前沿技术，为字节跳动旗下的核心应用提供终端+平台的解决方案。于下层，结合操作系统、虚拟机、工具链、编译器等技术，建设了稳定性、流畅性、电量在内全链路的监控体系和调试分析工具；于上层，则结合端侧特征工程、深度学习模型/决策树模型/SLM 训练等基建，围绕搜索/推荐/广告/直播/电商等场景，建设了云端协同推荐、品质体验优化等端智能解决方案。如果你热爱挑战底层技术、追求极致优化，又渴望把AI转化为千万用户感受得到的流畅与智能——欢迎加入，和我们一起打造下一代移动体验！\n\n1、负责编译工具链优化能力建设，基于Redex/R8实现字节码优化，或基于LLVM实现二进制产物优化，持续提升程序运行性能；\n2、负责跟进业内及学术界Toolchain领域前沿技术进展，开展可行性验证并推动落地；\n3、负责探索LLM在性能优化和Toolchain优化的应用，推进相关技术研究与落地。\n职位要求\n1、2027届本科及以上学历在读，计算机、软件工程等相关专业优先；\n2、熟练掌握C++/Java/Kotlin/Objective-C/Swift之一；\n3、有较强的分析问题和解决问题的能力，追求卓越，团队意识强；\n4、优秀的团队沟通与协作能力。\n\n以下任一领域有相关经验者优先：\n1、熟悉一个虚拟机（ART/OpenJDK/GraalVM）或一种语言运行时，具备运行时系统、GC、Interpreter、JIT/AOT编译器等相关经验；\n2、熟悉Redex/R8/LLVM，具备编译器功能开发，以及优化Pass、PGO、LTO/ThinLTO、BOLT等相关经验；\n3、有程序静态分析学术研究或开发相关经验。\n投递",
+      "job_body_hash": "279c169a23cceeaa0d0adf69db2fe3a50285567da73c4ece93bcaae27ff46468",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "信息不足，待复核",
+        "checks": [
+          {
+            "field": "graduation_range",
+            "value": [
+              "2026-09",
+              "2027-08"
+            ],
+            "quote": "ByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业），为符合岗位要求的同学提供转正机会",
+            "strength": "hard",
+            "actual": null,
+            "result": "unknown"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、2027届本科及以上学历在读，计算机、软件工程等相关专业优先",
+            "strength": "preferred",
+            "actual": null,
+            "result": "unknown"
+          }
+        ],
+        "missing": [
+          "min_degree",
+          "min_months",
+          "min_days"
+        ],
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "字节跳动",
+      "title": "软硬件协同实习生-服务器",
+      "url": "https://jobs.bytedance.com/campus/position/7594433756020394293/detail",
+      "final_url": "https://jobs.bytedance.com/campus/position/7594433756020394293/detail",
+      "observed_at": "2026-10-20T14:23:22.073Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "软硬件协同实习生-服务器\n上海\n实习\n研发 - 后端\nByteIntern\n职位 ID：A207073\n职位描述\nByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业），为符合岗位要求的同学提供转正机会。\n团队介绍：服务器部门的主要职责是通过持续开展业务需求跟踪和行业洞察，以及对各业务场景开展系统性能分析，为公司的全球业务打造具备高性价比和高可靠性的通用计算、存储和智能计算（AI）等产品与解决方案。在技术层面，深入钻研计算体系架构的研究与开发、CPU/GPU及部件的定制与评估、高速电路设计、新型供电散热技术、固件开发、驱动开发、内核及操作系统、编译器、可靠性、可用性和可维护性（RAS）等领域，推动软硬件的联合设计与优化，在人工智能时代为公司提供最具竞争力的算力和存储基础支撑。\n\n1、开发和使用性能分析工具、性能模拟器、仿真工具进行实验，验证通算和智算领域新架构方案的性能收益；\n2、研究和分析数据中心关键Workload的特征，探索软硬件协同设计与优化方案；\n3、参与CPU、GPU及其他开放架构生态的研究，探索开源软硬件协同优化的可能性；\n4、撰写研究报告，并有机会参与学术论文或专利的撰写。\n职位要求\n1、2027届本科及以上学历在读，计算机体系结构、电子工程、计算机科学等相关专业优先；\n2、具备良好的编程能力，熟悉C/C++、Python；\n3、熟悉计算机体系结构基本知识，如流水线、缓存、分支预测、乱序执行等；\n4、了解x86、ARM、RISC-V或其他主流CPU指令集，有相关优化经验者优先；\n5、熟悉CPU、GPU性能分析工具和仿真器，如Perf、VTune、Gem5、Simics、GPGPU-Sim等；\n6、具备良好的分析能力和研究能力，有学术论文发表经验者优先。\n投递\n相关职位\n后端开发实习生-飞书办公套件\n上海\n研发 - 后端\n校招\n职位 ID：A01136A\n训练推理一体化存储研发工程师 - Data-抖音/直播/电商/剪映\n北京、上海\n研发 - 后端\n校招\n职位 ID：A12592A\n后端开发工程师 - 音视频技术\n北京、上海\n研发 - 后端\n校招\n职位 ID：A237810\nAI全栈研发工程师 - Seed 安全研发\n上海\n研发 - 后端\n校招\n职位 ID：A154050A\n资源调度与计算效率研发工程师 - AI算力基础设施\n北京、杭州、上海\n研发 - 后端\n校招\n职位 ID：A245224\n联系我们​\n相关网站​\n候选人反馈平台\n官网使用体验反馈\n字节跳动\n社会招聘\n全球招聘\n字节跳动 Seed 团队",
+      "body_hash": "d455155d382eaf55463233e822da3726a802e0afea02ebded54784a5d1ffc79f",
+      "entry_controls": [
+        {
+          "text": "投递",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 11865,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://jobs.bytedance.com/campus/position/7594433756020394293/detail",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 1092
+        }
+      ],
+      "evidence_prefix": "005",
+      "target_title": "软硬件协同实习生-服务器",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "bytedance_detail_header",
+      "job_body": "软硬件协同实习生-服务器\n上海\n实习\n研发 - 后端\nByteIntern\n职位 ID：A207073\n职位描述\nByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业），为符合岗位要求的同学提供转正机会。\n团队介绍：服务器部门的主要职责是通过持续开展业务需求跟踪和行业洞察，以及对各业务场景开展系统性能分析，为公司的全球业务打造具备高性价比和高可靠性的通用计算、存储和智能计算（AI）等产品与解决方案。在技术层面，深入钻研计算体系架构的研究与开发、CPU/GPU及部件的定制与评估、高速电路设计、新型供电散热技术、固件开发、驱动开发、内核及操作系统、编译器、可靠性、可用性和可维护性（RAS）等领域，推动软硬件的联合设计与优化，在人工智能时代为公司提供最具竞争力的算力和存储基础支撑。\n\n1、开发和使用性能分析工具、性能模拟器、仿真工具进行实验，验证通算和智算领域新架构方案的性能收益；\n2、研究和分析数据中心关键Workload的特征，探索软硬件协同设计与优化方案；\n3、参与CPU、GPU及其他开放架构生态的研究，探索开源软硬件协同优化的可能性；\n4、撰写研究报告，并有机会参与学术论文或专利的撰写。\n职位要求\n1、2027届本科及以上学历在读，计算机体系结构、电子工程、计算机科学等相关专业优先；\n2、具备良好的编程能力，熟悉C/C++、Python；\n3、熟悉计算机体系结构基本知识，如流水线、缓存、分支预测、乱序执行等；\n4、了解x86、ARM、RISC-V或其他主流CPU指令集，有相关优化经验者优先；\n5、熟悉CPU、GPU性能分析工具和仿真器，如Perf、VTune、Gem5、Simics、GPGPU-Sim等；\n6、具备良好的分析能力和研究能力，有学术论文发表经验者优先。\n投递",
+      "job_body_hash": "ea4c373a9498935dbebb3cebcb26ddd8bd1df7b673105cb514fc78db4e1fb110",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [
+        "已从派生岗位正文中排除相关职位区域；原始 body 及其哈希未修改"
+      ],
+      "assessment": {
+        "status": "信息不足，待复核",
+        "checks": [
+          {
+            "field": "graduation_range",
+            "value": [
+              "2026-09",
+              "2027-08"
+            ],
+            "quote": "ByteIntern：面向2027届毕业生（2026年9月-2027年8月期间毕业），为符合岗位要求的同学提供转正机会",
+            "strength": "hard",
+            "actual": null,
+            "result": "unknown"
+          },
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1、2027届本科及以上学历在读，计算机体系结构、电子工程、计算机科学等相关专业优先",
+            "strength": "preferred",
+            "actual": null,
+            "result": "unknown"
+          }
+        ],
+        "missing": [
+          "min_degree",
+          "min_months",
+          "min_days"
+        ],
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    }
+  ]
+}

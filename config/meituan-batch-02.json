@@ -1,0 +1,32 @@
+[
+  {
+    "company": "美团",
+    "title": "智能商业分析师（BA/DS）",
+    "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4694982338&highlightType=campus",
+    "allowed_hosts": [
+      "zhaopin.meituan.com"
+    ],
+    "recruitment_type": "应届-校园招聘",
+    "provenance": "用户手动提供官网链接；岗位名称通过公开页面核对，待Lexmount云端采集核验"
+  },
+  {
+    "company": "美团",
+    "title": "HR实习生（招聘方向）",
+    "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4829324352&highlightType=campus",
+    "allowed_hosts": [
+      "zhaopin.meituan.com"
+    ],
+    "recruitment_type": "实习-日常实习",
+    "provenance": "用户手动提供官网链接；岗位名称通过公开页面核对，待Lexmount云端采集核验"
+  },
+  {
+    "company": "美团",
+    "title": "实习-餐饮类客户美工设计-成都&北京",
+    "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4858498338&highlightType=campus",
+    "allowed_hosts": [
+      "zhaopin.meituan.com"
+    ],
+    "recruitment_type": "实习-日常实习",
+    "provenance": "用户手动提供官网链接；岗位名称通过公开页面核对，待Lexmount云端采集核验"
+  }
+]

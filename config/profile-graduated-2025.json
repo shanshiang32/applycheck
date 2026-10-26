@@ -1,0 +1,11 @@
+{
+  "label": "用户提供的匹配画像：硕士，2025年已毕业",
+  "university": "北京邮电大学",
+  "degree": "硕士",
+  "graduation_year": 2025,
+  "graduation_month": null,
+  "is_student": false,
+  "months_available": 6,
+  "days_per_week": 5,
+  "notes": "按用户本次提供的2025年毕业处理为已毕业；未提供月份，不推测具体月份。学校名称仅展示，不参与门槛评分。如实际指2025年入学，应另行更正画像。"
+}

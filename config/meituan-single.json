@@ -1,0 +1,9 @@
+[
+  {
+    "company": "美团",
+    "title": "AI全栈工程师",
+    "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697320043&highlightType=campus",
+    "allowed_hosts": ["zhaopin.meituan.com"],
+    "provenance": "用户手动提供官网详情链接，待Lexmount云端读取核验"
+  }
+]

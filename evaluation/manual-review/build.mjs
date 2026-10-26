@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const dir=path.dirname(fileURLToPath(import.meta.url));
+const dataset=JSON.parse(await fs.readFile(path.join(dir,'../reviewed-20/results.json'),'utf8'));
+const rows=dataset.records.map(({title,company,url,body,body_hash,observed_at})=>({title,company,url,body,body_hash,observed_at}));
+const fingerprint=createHash('sha256').update(JSON.stringify(rows.map(r=>[r.url,r.body_hash]))).digest('hex');
+const core=(await fs.readFile(path.join(dir,'core.mjs'),'utf8')).replace(/^export /gm,'');
+const template=await fs.readFile(path.join(dir,'template.html'),'utf8');
+const payload=JSON.stringify({fingerprint,profile:dataset.metadata.profile,rows}).replace(/</g,'\\u003c');
+await fs.writeFile(path.join(dir,'review-20.html'),template.replace('/*CORE*/',()=>core).replace('/*DATA*/',()=>payload));
+console.log('复核页面已生成：'+path.join(dir,'review-20.html'));

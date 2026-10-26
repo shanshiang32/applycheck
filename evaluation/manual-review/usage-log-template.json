@@ -1,0 +1,18 @@
+{
+  "scope": "ApplyCheck项目，待与平台实际用量对账",
+  "period_start": null,
+  "period_end": null,
+  "timezone": null,
+  "browser_usage": {
+    "value": null,
+    "unit": null
+  },
+  "billed_cost": {
+    "value": null,
+    "currency": null
+  },
+  "successful_tasks": null,
+  "failed_tasks": null,
+  "evidence_file": null,
+  "notes": "空值表示未观测，不代表零费用。请包括失败、排查、重采和入口探测；不同岗位分母为20。"
+}

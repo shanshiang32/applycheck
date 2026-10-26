@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "mode": "live",
+    "generated_at": "2026-10-21T08:07:38.871Z",
+    "profile": {
+      "label": "用户提供的匹配画像：硕士，2025年已毕业",
+      "university": "北京邮电大学",
+      "degree": "硕士",
+      "graduation_year": 2025,
+      "graduation_month": null,
+      "is_student": false,
+      "months_available": 6,
+      "days_per_week": 5,
+      "notes": "按用户本次提供的2025年毕业处理为已毕业；未提供月份，不推测具体月份。学校名称仅展示，不参与门槛评分。如实际指2025年入学，应另行更正画像。"
+    },
+    "collector_version": "0.1.7",
+    "note": "用户真实云端采集的公开岗位回归样本；分发副本已移除session_id，原始正文及哈希保持不变。"
+  },
+  "records": [
+    {
+      "company": "美团",
+      "title": "智能商业分析师（BA/DS）",
+      "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4694982338&highlightType=campus",
+      "final_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4694982338&highlightType=campus",
+      "observed_at": "2026-10-21T08:07:42.739Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "首页\nLongCat人才招聘\n北斗计划\n社会招聘\n校园招聘\n美团赛事\n了解美团\nGlobal Careers\n登录\n智能商业分析师（BA/DS）\n应届-校园招聘\n工作地点：北京市、上海市\n最多可投递3个职位，但同一时间仅有1个职位流程处于进行中，第一志愿将被优先考虑。\n分享\n立即申请\n岗位职责\n1. 参与业务规划、策略制定、经营分析，为复杂的商业问题设计解决方案；\n2. 使用一流的数据分析工具和技能，洞察商业规律、用户需求，为业务出谋划策；\n3. 参与建设业界一流水平的公司级实验中台，为重大实验决策提供科学方案支撑（数据科学方向）；\n4. 探索大模型在商业分析场景的应用，如利用LLM辅助行业研究、自动化报告生成、智能数据洞察、自然语言数据查询等。\n任职要求\n1. 本科及以上学历，数学、统计、计算机、工科、商科等相关专业背景更佳；\n2. 聪明严谨、积极有韧性，乐于面对挑战、具备优秀的分析能力；\n3. 具备充分的好奇心，有钻研的精神，喜欢从数据中发现问题、分析规律更佳；对商业运作模式和企业经营感兴趣；\n4. 数据科学（DS方向）具备计算机背景或经济学和理工科双学位专业背景更佳；\n5. 了解大语言模型的基本能力，对AI赋能商业分析有探索兴趣，有使用AI工具辅助数据分析或报告撰写的经验者优先。\n具备以下经验者优先：\n1. 有使用AI工具辅助商业研究的实践经验，如利用大模型进行行业报告生成、数据可视化、用户调研分析等；\n2. 了解Text-to-SQL、自然语言数据分析等AI+数据分析前沿方向；\n3. 了解主流 Agent 开发框架（如 LangChain、Dify 等），有将 Agent 应用于数据分析或商业研究场景的经验。\n【岗位亮点】\n1. 距离决策者最近的岗位，数据规律将有机会驱动业务核心决策；\n2. 多元化的业务场景，丰富的商业视角和实战土壤；\n3. 体系化的人才培养机制；\n4. 大模型与商业分析深度融合，可参与构建AI增强的智能分析平台。\n工作城市\n北京市、上海市\n\n一起成长，一起更好\n\nGrow Together, Better Together\n\n美团\n|\n@2026 美团版权所有\n京ICP备10211739号\n京公网安备 11000002002052号\n|\n隐私政策\n    招聘意见反馈：zhaopin@meituan.com\n关注我们",
+      "body_hash": "4900fb4c3a06a470ab50268f8e06c3bd7475f9519b706d4da7e8c8ac9b6a9820",
+      "entry_controls": [
+        {
+          "text": "立即申请",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 7616,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4694982338&highlightType=campus",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 989
+        }
+      ],
+      "evidence_prefix": "001",
+      "target_title": "智能商业分析师（BA/DS）",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "existing_title_in_body",
+      "job_body": "首页\nLongCat人才招聘\n北斗计划\n社会招聘\n校园招聘\n美团赛事\n了解美团\nGlobal Careers\n登录\n智能商业分析师（BA/DS）\n应届-校园招聘\n工作地点：北京市、上海市\n最多可投递3个职位，但同一时间仅有1个职位流程处于进行中，第一志愿将被优先考虑。\n分享\n立即申请\n岗位职责\n1. 参与业务规划、策略制定、经营分析，为复杂的商业问题设计解决方案；\n2. 使用一流的数据分析工具和技能，洞察商业规律、用户需求，为业务出谋划策；\n3. 参与建设业界一流水平的公司级实验中台，为重大实验决策提供科学方案支撑（数据科学方向）；\n4. 探索大模型在商业分析场景的应用，如利用LLM辅助行业研究、自动化报告生成、智能数据洞察、自然语言数据查询等。\n任职要求\n1. 本科及以上学历，数学、统计、计算机、工科、商科等相关专业背景更佳；\n2. 聪明严谨、积极有韧性，乐于面对挑战、具备优秀的分析能力；\n3. 具备充分的好奇心，有钻研的精神，喜欢从数据中发现问题、分析规律更佳；对商业运作模式和企业经营感兴趣；\n4. 数据科学（DS方向）具备计算机背景或经济学和理工科双学位专业背景更佳；\n5. 了解大语言模型的基本能力，对AI赋能商业分析有探索兴趣，有使用AI工具辅助数据分析或报告撰写的经验者优先。\n具备以下经验者优先：\n1. 有使用AI工具辅助商业研究的实践经验，如利用大模型进行行业报告生成、数据可视化、用户调研分析等；\n2. 了解Text-to-SQL、自然语言数据分析等AI+数据分析前沿方向；\n3. 了解主流 Agent 开发框架（如 LangChain、Dify 等），有将 Agent 应用于数据分析或商业研究场景的经验。\n【岗位亮点】\n1. 距离决策者最近的岗位，数据规律将有机会驱动业务核心决策；\n2. 多元化的业务场景，丰富的商业视角和实战土壤；\n3. 体系化的人才培养机制；\n4. 大模型与商业分析深度融合，可参与构建AI增强的智能分析平台。\n工作城市\n北京市、上海市\n\n一起成长，一起更好\n\nGrow Together, Better Together\n\n美团\n|\n@2026 美团版权所有\n京ICP备10211739号\n京公网安备 11000002002052号\n|\n隐私政策\n    招聘意见反馈：zhaopin@meituan.com\n关注我们",
+      "job_body_hash": "4900fb4c3a06a470ab50268f8e06c3bd7475f9519b706d4da7e8c8ac9b6a9820",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [],
+      "assessment": {
+        "status": "信息不足，待复核",
+        "checks": [
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1. 本科及以上学历，数学、统计、计算机、工科、商科等相关专业背景更佳",
+            "evidence_clause": "1. 本科及以上学历",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": "硕士",
+            "result": "pass"
+          }
+        ],
+        "missing": [
+          "min_months",
+          "min_days",
+          "graduation_range"
+        ],
+        "rules_version": "0.1.3",
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、在校状态、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "美团",
+      "title": "HR实习生（招聘方向）",
+      "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4829324352&highlightType=campus",
+      "final_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4829324352&highlightType=campus",
+      "observed_at": "2026-10-21T08:07:52.212Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "首页\nLongCat人才招聘\n北斗计划\n社会招聘\n校园招聘\n美团赛事\n了解美团\nGlobal Careers\n登录\nHR实习生（招聘方向）\n实习-日常实习\n更新时间：2026/10/21\n工作地点：北京市\n部门：人力资源平台\n工作经验：不限\n分享\n立即申请\n部门介绍\n美团HR的使命是“建设有生命力的组织，为客户和社会创造价值。” 我们认为HR的工作不是以自身“专业”为中心，而是要建设有助于员工发挥创造力的环境，支持他们更好地为外部客户和社会创造价值，也实现组织自身的进化和传承。在这个过程中，我们的每位HR同学都是“业务的战略合作伙伴、组织能力的建设者、美团精神的布道者、员工的成长伙伴”。我们要设计面向长期支撑组织有效运转的机制，我们要求真务实地帮业务解决发展中的问题和阵痛，我们要支持每一位员工历经磨炼收获成长。我们要影响和驱动让世界更美好的变化发生。如果这也是你追求的，欢迎加入美团HR，与我们一路同行！\n岗位职责\n1.沟通需求：了解清楚业务需求、痛点，讨论清楚人才画像和寻访方向；\n2.人才寻访：摸清目标公司HR团队架构，努力与目标候选人建立起联系，了解清楚候选人的诉求，对候选人有初步判断并介绍清楚我们的机会；\n3.跟进流程：双向沟通候选人及业务部门，协调时间、安排面试，跟进面试全流程；\n4.支持招聘相关的项目和数据统计工作。\n岗位基本要求\n1.28届及以后的本科或研究生；\n2.良好的逻辑思维，条理清晰，沟通能力强，踏实肯干，积极上进，细心认真，有责任感；\n3.能够稳定实习3个月及以上，每周保障出勤4-5天 ，全勤优先。\n具备以下条件优先\n有互联网企业的HR实习经历，可酌情优先。\n岗位亮点\n1.成长空间大：能有机会了解中国不同行业优秀企业的HR体系，能有机会了解各司真实的HR工作内容，能有机会接触中国优秀的一批HR，了解他们的成长轨迹；\n2.团队氛围好：专业、勤奋的小伙伴们，给你严格的要求，专业的帮助，保证实习收获满满。\n\n一起成长，一起更好\n\nGrow Together, Better Together\n\n美团\n|\n@2026 美团版权所有\n京ICP备10211739号\n京公网安备 11000002002052号\n|\n隐私政策\n    招聘意见反馈：zhaopin@meituan.com\n关注我们",
+      "body_hash": "5fe1bf283a17f396caf7565226bb5170efad635e8e14a2f0b85901d16a188811",
+      "entry_controls": [
+        {
+          "text": "立即申请",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 7672,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4829324352&highlightType=campus",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 965
+        }
+      ],
+      "evidence_prefix": "002",
+      "target_title": "HR实习生（招聘方向）",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "existing_title_in_body",
+      "job_body": "首页\nLongCat人才招聘\n北斗计划\n社会招聘\n校园招聘\n美团赛事\n了解美团\nGlobal Careers\n登录\nHR实习生（招聘方向）\n实习-日常实习\n更新时间：2026/10/21\n工作地点：北京市\n部门：人力资源平台\n工作经验：不限\n分享\n立即申请\n部门介绍\n美团HR的使命是“建设有生命力的组织，为客户和社会创造价值。” 我们认为HR的工作不是以自身“专业”为中心，而是要建设有助于员工发挥创造力的环境，支持他们更好地为外部客户和社会创造价值，也实现组织自身的进化和传承。在这个过程中，我们的每位HR同学都是“业务的战略合作伙伴、组织能力的建设者、美团精神的布道者、员工的成长伙伴”。我们要设计面向长期支撑组织有效运转的机制，我们要求真务实地帮业务解决发展中的问题和阵痛，我们要支持每一位员工历经磨炼收获成长。我们要影响和驱动让世界更美好的变化发生。如果这也是你追求的，欢迎加入美团HR，与我们一路同行！\n岗位职责\n1.沟通需求：了解清楚业务需求、痛点，讨论清楚人才画像和寻访方向；\n2.人才寻访：摸清目标公司HR团队架构，努力与目标候选人建立起联系，了解清楚候选人的诉求，对候选人有初步判断并介绍清楚我们的机会；\n3.跟进流程：双向沟通候选人及业务部门，协调时间、安排面试，跟进面试全流程；\n4.支持招聘相关的项目和数据统计工作。\n岗位基本要求\n1.28届及以后的本科或研究生；\n2.良好的逻辑思维，条理清晰，沟通能力强，踏实肯干，积极上进，细心认真，有责任感；\n3.能够稳定实习3个月及以上，每周保障出勤4-5天 ，全勤优先。\n具备以下条件优先\n有互联网企业的HR实习经历，可酌情优先。\n岗位亮点\n1.成长空间大：能有机会了解中国不同行业优秀企业的HR体系，能有机会了解各司真实的HR工作内容，能有机会接触中国优秀的一批HR，了解他们的成长轨迹；\n2.团队氛围好：专业、勤奋的小伙伴们，给你严格的要求，专业的帮助，保证实习收获满满。\n\n一起成长，一起更好\n\nGrow Together, Better Together\n\n美团\n|\n@2026 美团版权所有\n京ICP备10211739号\n京公网安备 11000002002052号\n|\n隐私政策\n    招聘意见反馈：zhaopin@meituan.com\n关注我们",
+      "job_body_hash": "5fe1bf283a17f396caf7565226bb5170efad635e8e14a2f0b85901d16a188811",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [],
+      "assessment": {
+        "status": "信息不足，待复核",
+        "checks": [
+          {
+            "field": "min_months",
+            "value": 3,
+            "quote": "3.能够稳定实习3个月及以上，每周保障出勤4-5天 ，全勤优先",
+            "evidence_clause": "3.能够稳定实习3个月及以上",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 6,
+            "result": "pass"
+          },
+          {
+            "field": "min_days",
+            "value": 5,
+            "quote": "3.能够稳定实习3个月及以上，每周保障出勤4-5天 ，全勤优先",
+            "evidence_clause": "每周保障出勤4-5天",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": 5,
+            "result": "pass"
+          }
+        ],
+        "missing": [
+          "min_degree",
+          "graduation_range"
+        ],
+        "rules_version": "0.1.3",
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、在校状态、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    },
+    {
+      "company": "美团",
+      "title": "实习-餐饮类客户美工设计-成都&北京",
+      "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4858498338&highlightType=campus",
+      "final_url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4858498338&highlightType=campus",
+      "observed_at": "2026-10-21T08:08:01.792Z",
+      "provider": "lexmount-cloud",
+      "session_id": null,
+      "http_status": 200,
+      "content_state": "已读取详情",
+      "body": "首页\nLongCat人才招聘\n北斗计划\n社会招聘\n校园招聘\n美团赛事\n了解美团\nGlobal Careers\n登录\n实习-餐饮类客户美工设计-成都&北京\n实习-日常实习\n更新时间：2026/10/21\n工作地点：成都市、北京市\n部门：软硬件服务-餐饮SaaS事业部\n工作经验：不限\n分享\n立即申请\n部门介绍\n美团餐饮系统为餐饮企业提供一站式IT解决方案，帮助餐饮商户实现从供应链管理、生产管理、前厅管理到外卖的数字化经营。美团餐饮系统不仅打通了餐厅和平台，更帮助餐厅连接客人，让商户更了解顾客需求，在帮助商户做商业决策的同时给顾客带来更好的消费体验。\n我们持续建设和提升产研、销售、服务的核心能力，通过全新升级的美团餐饮系统一体化软硬件产品，助力餐饮商户进行线上化经营，帮助商户在推广新店、提升效率、降低成本、会员营销、流量扶持、智慧选址、供应链管理等方面强化经营能力。团队汇集了餐饮和SaaS领域的优秀人才，秉持着“以客户为中心”的初心和“长期有耐心”的耕耘精神，求真、敬畏、敢于自我否定、善于快速学习。期待同样愿意长期致力于餐饮产业数字化、智能化的你加入我们的团队，共同进步共同成长！\n岗位职责\n1. 负责餐饮类客户的视觉设计需求，包括海报、菜单、宣传页等物料的设计与优化。\n2. 配合客户运营团队，理解客户需求并转化为具有吸引力的视觉方案。\n3. 参与品牌视觉风格的统一与提升，确保设计风格符合客户品牌调性。\n4. 协助完成线上及线下活动的视觉支持工作，提升客户满意度与活动效果。\n岗位基本要求\n1. 大学本科及以上学历，设计类相关专业优先。\n2. 熟练使用平面设计，美工设计，VI&UI等设计工具。\n3. 具备良好的审美能力和创意表达能力，对餐饮行业有一定了解。\n4. 工作细致、责任心强，具备良好的沟通能力和团队协作精神。\n具备以下条件优先\n平面设计及图片涉及UI等专业能力\n岗位亮点\n1. 实习期间可接触真实商业项目，积累餐饮行业设计经验。\n2. 获得资深设计师指导，快速提升专业技能。\n3. 工作地点灵活，可选择成都或北京办公。\n4. 表现优异者有机会获得转正机会。\n\n一起成长，一起更好\n\nGrow Together, Better Together\n\n美团\n|\n@2026 美团版权所有\n京ICP备10211739号\n京公网安备 11000002002052号\n|\n隐私政策\n    招聘意见反馈：zhaopin@meituan.com\n关注我们",
+      "body_hash": "01eb7c7faf9af388113b51115fa1886f98f5823d23aeeee2c38340222bc8ead3",
+      "entry_controls": [
+        {
+          "text": "立即申请",
+          "href": null,
+          "disabled": false,
+          "visible": true
+        }
+      ],
+      "entry_state": "发现可见入口，尚未验证后续流程",
+      "elapsed_ms": 7865,
+      "trace": [
+        {
+          "action": "navigate",
+          "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4858498338&highlightType=campus",
+          "http_status": 200
+        },
+        {
+          "action": "observe",
+          "state": "已读取详情",
+          "entry_controls": 1,
+          "body_characters": 1032
+        }
+      ],
+      "evidence_prefix": "003",
+      "target_title": "实习-餐饮类客户美工设计-成都&北京",
+      "heading_candidates": [],
+      "title_verified": true,
+      "title_source": "existing_title_in_body",
+      "job_body": "首页\nLongCat人才招聘\n北斗计划\n社会招聘\n校园招聘\n美团赛事\n了解美团\nGlobal Careers\n登录\n实习-餐饮类客户美工设计-成都&北京\n实习-日常实习\n更新时间：2026/10/21\n工作地点：成都市、北京市\n部门：软硬件服务-餐饮SaaS事业部\n工作经验：不限\n分享\n立即申请\n部门介绍\n美团餐饮系统为餐饮企业提供一站式IT解决方案，帮助餐饮商户实现从供应链管理、生产管理、前厅管理到外卖的数字化经营。美团餐饮系统不仅打通了餐厅和平台，更帮助餐厅连接客人，让商户更了解顾客需求，在帮助商户做商业决策的同时给顾客带来更好的消费体验。\n我们持续建设和提升产研、销售、服务的核心能力，通过全新升级的美团餐饮系统一体化软硬件产品，助力餐饮商户进行线上化经营，帮助商户在推广新店、提升效率、降低成本、会员营销、流量扶持、智慧选址、供应链管理等方面强化经营能力。团队汇集了餐饮和SaaS领域的优秀人才，秉持着“以客户为中心”的初心和“长期有耐心”的耕耘精神，求真、敬畏、敢于自我否定、善于快速学习。期待同样愿意长期致力于餐饮产业数字化、智能化的你加入我们的团队，共同进步共同成长！\n岗位职责\n1. 负责餐饮类客户的视觉设计需求，包括海报、菜单、宣传页等物料的设计与优化。\n2. 配合客户运营团队，理解客户需求并转化为具有吸引力的视觉方案。\n3. 参与品牌视觉风格的统一与提升，确保设计风格符合客户品牌调性。\n4. 协助完成线上及线下活动的视觉支持工作，提升客户满意度与活动效果。\n岗位基本要求\n1. 大学本科及以上学历，设计类相关专业优先。\n2. 熟练使用平面设计，美工设计，VI&UI等设计工具。\n3. 具备良好的审美能力和创意表达能力，对餐饮行业有一定了解。\n4. 工作细致、责任心强，具备良好的沟通能力和团队协作精神。\n具备以下条件优先\n平面设计及图片涉及UI等专业能力\n岗位亮点\n1. 实习期间可接触真实商业项目，积累餐饮行业设计经验。\n2. 获得资深设计师指导，快速提升专业技能。\n3. 工作地点灵活，可选择成都或北京办公。\n4. 表现优异者有机会获得转正机会。\n\n一起成长，一起更好\n\nGrow Together, Better Together\n\n美团\n|\n@2026 美团版权所有\n京ICP备10211739号\n京公网安备 11000002002052号\n|\n隐私政策\n    招聘意见反馈：zhaopin@meituan.com\n关注我们",
+      "job_body_hash": "01eb7c7faf9af388113b51115fa1886f98f5823d23aeeee2c38340222bc8ead3",
+      "normalization_version": "0.1.1",
+      "normalization_notes": [],
+      "assessment": {
+        "status": "信息不足，待复核",
+        "checks": [
+          {
+            "field": "min_degree",
+            "value": "本科",
+            "quote": "1. 大学本科及以上学历，设计类相关专业优先",
+            "evidence_clause": "1. 大学本科及以上学历",
+            "strength": "hard",
+            "strength_basis": "local_clause",
+            "actual": "硕士",
+            "result": "pass"
+          }
+        ],
+        "missing": [
+          "min_months",
+          "min_days",
+          "graduation_range"
+        ],
+        "rules_version": "0.1.3",
+        "review_required": true,
+        "scope": "规则初筛，仅覆盖学历、在校状态、时长、出勤和毕业区间；专业、技能、城市、项目规则和复杂语义须复核。条件匹配不代表可投或录用。"
+      }
+    }
+  ]
+}

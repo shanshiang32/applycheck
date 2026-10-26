@@ -1,0 +1,213 @@
+{
+  "batch": "bytedance-batch-02",
+  "rules_version": "0.1.8",
+  "label_author": "assistant_review_of_uploaded_raw_text",
+  "human_verified": false,
+  "note": "模型逐条对照原文的初审标签，非独立人工金标准；证据摘录由采集结果提供，正文亦已逐条阅读。只评价五类结构化硬条件，不评价专业技能或可投性。同字段多条下界取最严格值，仅合并展示，不删除原证据。",
+  "records": [
+    {
+      "title": "大众消费食品生鲜运营实习生 - 抖音电商运营",
+      "url": "https://jobs.bytedance.com/campus/position/7698272137612118277/detail",
+      "body_hash": "37e76e0ebf48825dc27a3a8e6979adf98175477120fcb5aa6373b1612f6c570e",
+      "expected": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 3,
+        "min_days": 4,
+        "graduation_range": null
+      },
+      "observed": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 3,
+        "min_days": 4,
+        "graduation_range": null
+      },
+      "evidence_to_review": {
+        "min_degree": [
+          "1、本科及以上学历在读"
+        ],
+        "requires_student": [
+          "日常实习：面向全体在校生",
+          "1、本科及以上学历在读"
+        ],
+        "min_months": [
+          "为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+          "可连续实习3个月及以上"
+        ],
+        "min_days": [
+          "5、每周可稳定出勤4-5天"
+        ],
+        "graduation_range": []
+      },
+      "expected_status": "明确条件不匹配",
+      "observed_status": "明确条件不匹配",
+      "human_review_status": "pending"
+    },
+    {
+      "title": "通用Agent数据策略实习生 - AI数据与安全",
+      "url": "https://jobs.bytedance.com/campus/position/7697164427103783173/detail",
+      "body_hash": "a2f2dbfa3bec948c0d387443fdcbef5af6e8d1fcf510fe56d060ed786d191787",
+      "expected": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 3,
+        "min_days": 5,
+        "graduation_range": null
+      },
+      "observed": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 3,
+        "min_days": 5,
+        "graduation_range": null
+      },
+      "evidence_to_review": {
+        "min_degree": [
+          "1、本科及以上学历在读"
+        ],
+        "requires_student": [
+          "日常实习：面向全体在校生",
+          "1、本科及以上学历在读"
+        ],
+        "min_months": [
+          "为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+          "可实习三个月以上"
+        ],
+        "min_days": [
+          "每周实习5天"
+        ],
+        "graduation_range": []
+      },
+      "expected_status": "明确条件不匹配",
+      "observed_status": "明确条件不匹配",
+      "human_review_status": "pending"
+    },
+    {
+      "title": "区域政策运营实习生 - 抖音电商运营",
+      "url": "https://jobs.bytedance.com/campus/position/7697086992379906309/detail",
+      "body_hash": "0b490f92916d7c65946a3ff35352fb0705a00ac195fc32bc3fba39c194ceb5d9",
+      "expected": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 6,
+        "min_days": 5,
+        "graduation_range": null
+      },
+      "observed": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 6,
+        "min_days": 5,
+        "graduation_range": null
+      },
+      "evidence_to_review": {
+        "min_degree": [
+          "1、本科及以上学历在读"
+        ],
+        "requires_student": [
+          "日常实习：面向全体在校生",
+          "1、本科及以上学历在读"
+        ],
+        "min_months": [
+          "为符合岗位要求的同学提供为期3个月及以上的项目实践机会",
+          "且能连续实习6个月以上"
+        ],
+        "min_days": [
+          "4、每周可全职实习5天"
+        ],
+        "graduation_range": []
+      },
+      "expected_status": "明确条件不匹配",
+      "observed_status": "明确条件不匹配",
+      "human_review_status": "partially_confirmed_by_user",
+      "human_confirmed_fields": [
+        "min_months",
+        "min_days",
+        "requires_student"
+      ]
+    },
+    {
+      "title": "千川营销数科实习生 - 抖音电商",
+      "url": "https://jobs.bytedance.com/campus/position/7696714000251767045/detail",
+      "body_hash": "82841b63aa19bea3644968cd948dc66e1bbe3a044e19d02e1e2721defbc8dbe6",
+      "expected": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 3,
+        "min_days": null,
+        "graduation_range": null
+      },
+      "observed": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 3,
+        "min_days": null,
+        "graduation_range": null
+      },
+      "evidence_to_review": {
+        "min_degree": [
+          "1、本科及以上学历在读"
+        ],
+        "requires_student": [
+          "日常实习：面向全体在校生",
+          "1、本科及以上学历在读"
+        ],
+        "min_months": [
+          "为符合岗位要求的同学提供为期3个月及以上的项目实践机会"
+        ],
+        "min_days": [],
+        "graduation_range": []
+      },
+      "expected_status": "明确条件不匹配",
+      "observed_status": "明确条件不匹配",
+      "human_review_status": "partially_confirmed_by_user",
+      "human_confirmed_fields": [
+        "min_days"
+      ]
+    },
+    {
+      "title": "技术产品实习生（AI策略/大模型方向） - 中国交易与广告",
+      "url": "https://jobs.bytedance.com/campus/position/7696498792887093557/detail",
+      "body_hash": "4a6a8dc203e313c283c48bfd763337341c2081dd6acb0daae1975848b5e120eb",
+      "expected": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 3,
+        "min_days": 4,
+        "graduation_range": null
+      },
+      "observed": {
+        "min_degree": "本科",
+        "requires_student": true,
+        "min_months": 3,
+        "min_days": 4,
+        "graduation_range": null
+      },
+      "evidence_to_review": {
+        "min_degree": [
+          "1、本科及以上学历在读"
+        ],
+        "requires_student": [
+          "日常实习：面向全体在校生",
+          "1、本科及以上学历在读"
+        ],
+        "min_months": [
+          "为符合岗位要求的同学提供为期3个月及以上的项目实践机会"
+        ],
+        "min_days": [
+          "5、每周可出勤4-5天"
+        ],
+        "graduation_range": []
+      },
+      "expected_status": "明确条件不匹配",
+      "observed_status": "明确条件不匹配",
+      "human_review_status": "pending"
+    }
+  ],
+  "user_confirmation": {
+    "date": "2026-10-21",
+    "message": "核对一致",
+    "scope": "仅针对上一轮指定抽查：区域政策运营的6个月、5天、在读要求，以及千川营销数科未明确出勤。未将其余字段升级为已人工确认。"
+  }
+}

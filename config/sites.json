@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bytedance",
+    "company": "字节跳动",
+    "url": "https://jobs.bytedance.com/campus/position",
+    "allowed_hosts": ["jobs.bytedance.com"],
+    "detail_pattern": "/campus/position/\\d+/detail",
+    "status": "公开页面已核验；Lexmount 动态发现待实测"
+  },
+  {
+    "id": "meituan",
+    "company": "美团",
+    "url": "https://zhaopin.meituan.com/web/campus",
+    "allowed_hosts": ["zhaopin.meituan.com"],
+    "detail_pattern": "/web/position/detail/",
+    "status": "公开页面已核验；岗位卡片未暴露 href，详情规则待云端实测"
+  },
+  {
+    "id": "tencent",
+    "company": "腾讯",
+    "url": "https://join.qq.com/",
+    "allowed_hosts": ["join.qq.com"],
+    "detail_pattern": "job-detail|position/detail",
+    "status": "官方国内招聘入口已核验；列表和详情适配待实测"
+  }
+]

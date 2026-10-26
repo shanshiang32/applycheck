@@ -1,0 +1,8 @@
+{
+  "label": "待填写的求职条件",
+  "degree": null,
+  "graduation_month": null,
+  "months_available": null,
+  "days_per_week": null,
+  "notes": "degree 填 本科/硕士/博士；毕业月份填 YYYY-MM；空值表示未知，不会自动判为符合。"
+}

@@ -1,0 +1,9 @@
+{
+  "label": "测试画像：假设2027年毕业的在读硕士，非用户真实信息",
+  "degree": "硕士",
+  "graduation_year": 2027,
+  "graduation_month": "2027-06",
+  "is_student": true,
+  "months_available": 6,
+  "days_per_week": 5
+}
