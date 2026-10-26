@@ -35,9 +35,16 @@
 - ✅ 结果公示：2026-11-14 20:00
 - ✅ 内部完成目标：2026-10-31（早于官方截止）
 
-## 需用户录制/上传（未完）
+## 演示视频（已完成）
 
-- ⏳ 约 3 分钟演示视频（按 `demo-script.md` 录制；尚未收到/审核，不能假定已录制）
+- ✅ 演示视频已生成为**矢量风格视频**：`media/applycheck-demo.mp4`（68.000s / 1920×1080 / 30fps / H.264 / 4.16 MB / 2040 帧）
+- ✅ 附矢量海报 `media/applycheck-poster.svg` 与两张静帧 PNG
+- ✅ 生成器与源文件：`tools/vector-video/{frame.html, render.mjs, README.md}`，改数据可一键重渲染
+- ✅ 校验：ffprobe 帧数与时长精确；抽帧 PSNR 36.8–38.8 dB；12 个时间点文本可见性审计通过
+- ✅ **替代**此前约 81 秒 / 157.88 MB 的屏幕录制（体积约 1/38，正式提交以本视频为准）
+
+## 需用户上传（未完）
+
 - ⏳ 到官方 `/events/real-task-challenge/submit` 表单投稿
 - ⏳ 群内/表单要求的账号授权、报名与身份信息（本人完成）
 - ✅ AI 复核文件已接入（`evaluation/AI_review_20.json`，来自你提供的 `D:\engine\ApplyCheck_AI_review_20.json`；已核对 fingerprint 与 20 岗数据集一致，来源正确标识为 AI 自动复核）

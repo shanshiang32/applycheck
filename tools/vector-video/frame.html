@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>ApplyCheck 矢量演示</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1920px;height:1080px;overflow:hidden}
+  body{background:#eef2f7;color:#17243a;
+       font-family:"Microsoft YaHei","Segoe UI",system-ui,sans-serif;
+       -webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+  #stage{position:relative;width:1920px;height:1080px;overflow:hidden}
+  .scene{position:absolute;inset:0;padding:104px 128px;opacity:0;visibility:hidden}
+  .eyebrow{color:#3169ce;font-weight:700;letter-spacing:7px;font-size:24px}
+  h1{font-size:100px;line-height:1.14;letter-spacing:-1.5px;font-weight:700}
+  h2{font-size:62px;line-height:1.2;letter-spacing:-0.5px;font-weight:700}
+  .lead{font-size:34px;line-height:1.6;color:#4c5b73;max-width:1520px}
+  .sub{font-size:28px;color:#6b7b93}
+  .mono{font-family:"Cascadia Mono",Consolas,"Courier New",monospace}
+  /* 常驻装饰 */
+  #brand{position:absolute;left:128px;top:52px;font-size:22px;letter-spacing:6px;
+         color:#3169ce;font-weight:700;opacity:.9}
+  #brandline{position:absolute;left:128px;top:92px;width:96px;height:4px;background:#3169ce;
+             border-radius:2px;transform-origin:left center}
+  #foot{position:absolute;left:128px;bottom:48px;font-size:20px;color:#93a1b5;letter-spacing:1px}
+  #dots{position:absolute;right:128px;bottom:48px;display:flex;gap:10px}
+  .dot{width:34px;height:4px;border-radius:2px;background:#cfd9e6}
+  /* 卡片与列表 */
+  .card{background:#fff;border:1px solid #dde5ef;border-radius:20px;
+        box-shadow:0 10px 30px rgba(23,36,58,.06)}
+  .row{display:flex;align-items:center;gap:36px}
+  .item{display:flex;align-items:center;gap:26px;font-size:36px;color:#22314a}
+  .idx{width:52px;height:52px;flex:0 0 52px;border-radius:14px;background:#e8f0fb;
+       color:#215ec4;font-weight:700;font-size:26px;display:flex;align-items:center;justify-content:center}
+  .kv{display:flex;flex-wrap:wrap;gap:16px 56px}
+  .kv .k{font-size:24px;color:#7c8ba1;letter-spacing:1px}
+  .kv .v{font-size:40px;font-weight:700;color:#17243a}
+  .cell{padding:26px 34px;border-radius:16px;background:#fff;border:1px solid #dde5ef}
+  /* 结果数字 */
+  .big{font-size:190px;line-height:.92;font-weight:700;letter-spacing:-6px}
+  .bignum{font-family:"Cascadia Mono",Consolas,monospace;font-variant-numeric:tabular-nums}
+  .pill{display:inline-flex;align-items:center;gap:12px;padding:12px 24px;border-radius:999px;
+        font-size:26px;font-weight:700}
+  .pill.ok{background:#e7f6ec;color:#1a7f45}
+  .pill.bad{background:#fdeaea;color:#b3261e}
+  .pill.warn{background:#fff5e0;color:#a56a00}
+  .pill.info{background:#e8f0fb;color:#215ec4}
+  .quote{font-size:34px;line-height:1.6;color:#22314a;background:#f5f8fd;
+         border-left:6px solid #b3c9ee;border-radius:0 14px 14px 0;padding:22px 30px}
+  .bar{height:26px;border-radius:13px;transform-origin:left center}
+  .stop{font-size:44px;font-weight:700;color:#b3261e;letter-spacing:2px}
+  .code{font-family:"Cascadia Mono",Consolas,monospace;font-size:30px;color:#215ec4}
+  .arrow{font-size:40px;color:#9fb0c8}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="brand">APPLYCHECK / 投前核验</div>
+  <div id="brandline"></div>
+  <div id="foot">Lexmount 云平台真实任务挑战 · 2026</div>
+  <div id="dots"></div>
+
+  <!-- 1 标题 -->
+  <section class="scene" id="s1" style="display:flex;flex-direction:column;justify-content:center">
+    <div class="eyebrow" id="s1a">LEXMOUNT · REAL TASK CHALLENGE</div>
+    <h1 id="s1b" style="margin-top:28px">每一项判断<br>都有原文依据</h1>
+    <p class="lead" id="s1c" style="margin-top:44px">
+      用 Lexmount 云浏览器读取实习岗位详情，提取硬门槛，与画像比较，
+      再核验投递入口——停在登录前。
+    </p>
+    <p class="sub mono" id="s1d" style="margin-top:52px">20 个真实岗位 · 规则 0.1.13 · 70 项测试通过</p>
+  </section>
+
+  <!-- 2 痛点 -->
+  <section class="scene" id="s2">
+    <h2 id="s2t">投递前的六个误判风险</h2>
+    <div id="s2l" style="margin-top:56px;display:flex;flex-direction:column;gap:30px">
+      <div class="item"><div class="idx">1</div><div>「优先 / 加分 / 更佳」被当成硬门槛</div></div>
+      <div class="item"><div class="idx">2</div><div>「相关专业优先」被用来放松同句学历要求</div></div>
+      <div class="item"><div class="idx">3</div><div>通用 3 个月与岗位专属 6 个月取错口径</div></div>
+      <div class="item"><div class="idx">4</div><div>毕业月份未知时凭空推测</div></div>
+      <div class="item"><div class="idx">5</div><div>读取失败 / 岗位关闭 / 未再采集 混为一谈</div></div>
+      <div class="item"><div class="idx">6</div><div>入口可见 ≠ 可申请</div></div>
+    </div>
+  </section>
+
+  <!-- 3 画像 -->
+  <section class="scene" id="s3">
+    <h2 id="s3t">固定测试画像</h2>
+    <div class="card" id="s3c" style="margin-top:52px;padding:64px 72px">
+      <div class="kv">
+        <div><div class="k">学校（仅展示）</div><div class="v">北京邮电大学</div></div>
+        <div><div class="k">学历</div><div class="v">硕士</div></div>
+        <div><div class="k">在校状态</div><div class="v">非在校（已毕业）</div></div>
+        <div><div class="k">毕业年份</div><div class="v">2025</div></div>
+        <div><div class="k">毕业月份</div><div class="v">未提供</div></div>
+        <div><div class="k">可连续实习</div><div class="v">6 个月</div></div>
+        <div><div class="k">每周出勤</div><div class="v">5 天</div></div>
+      </div>
+    </div>
+    <p class="lead" id="s3n" style="margin-top:52px">
+      学校仅展示、<b>不参与门槛评分</b>；毕业月份未提供，<b>不推测月份</b>。
+    </p>
+  </section>
+
+  <!-- 4 结果 -->
+  <section class="scene" id="s4">
+    <h2 id="s4t">20 个真实岗位 → 统一重分析</h2>
+    <p class="sub" id="s4s" style="margin-top:18px">字节跳动 16 · 美团 4 · 同一份画像与规则 0.1.13 离线重算</p>
+    <div class="row" id="s4r" style="margin-top:64px;gap:110px;align-items:flex-end">
+      <div>
+        <div class="big bignum" id="s4n1" style="color:#b3261e">0</div>
+        <div class="sub" style="margin-top:14px;font-size:30px">明确条件不匹配</div>
+        <div class="bar" id="s4b1" style="margin-top:22px;width:420px;background:#b3261e"></div>
+      </div>
+      <div>
+        <div class="big bignum" id="s4n2" style="color:#a56a00">0</div>
+        <div class="sub" style="margin-top:14px;font-size:30px">信息不足，待复核</div>
+        <div class="bar" id="s4b2" style="margin-top:22px;width:420px;background:#a56a00"></div>
+      </div>
+      <div>
+        <div class="big bignum" id="s4n3" style="color:#1a7f45">0</div>
+        <div class="sub" style="margin-top:14px;font-size:30px">已识别硬条件匹配</div>
+        <div class="bar" id="s4b3" style="margin-top:22px;width:420px;background:#1a7f45"></div>
+      </div>
+    </div>
+    <p class="lead" id="s4n" style="margin-top:64px">
+      条件初筛只覆盖五类硬门槛；<b>不等于整体求职资格</b>，也不宣称可投或录用。
+    </p>
+  </section>
+
+  <!-- 5 案例A -->
+  <section class="scene" id="s5">
+    <h2 id="s5t">学历达标，但「学历在读」不满足</h2>
+    <p class="sub mono" id="s5s" style="margin-top:16px">数据分析实习生 - 抖音电商</p>
+    <div class="card" style="margin-top:52px;padding:56px 64px" id="s5c">
+      <div class="row" style="gap:44px">
+        <div class="cell" style="flex:1">
+          <div class="k" style="font-size:24px;color:#7c8ba1">学历下界</div>
+          <div style="font-size:40px;font-weight:700;margin-top:10px">本科 ≤ 硕士</div>
+          <div class="pill ok" style="margin-top:20px">✓ 达标</div>
+        </div>
+        <div class="arrow">→</div>
+        <div class="cell" style="flex:1">
+          <div class="k" style="font-size:24px;color:#7c8ba1">在校要求</div>
+          <div style="font-size:40px;font-weight:700;margin-top:10px">必须在校 ≠ 非在校</div>
+          <div class="pill bad" style="margin-top:20px">✗ 冲突</div>
+        </div>
+      </div>
+      <div class="quote" style="margin-top:40px">
+        1、本科及以上学历在读，计算机、人工智能等相关专业优先
+      </div>
+    </div>
+    <p id="s5v" style="margin-top:44px;font-size:44px;font-weight:700;color:#b3261e">
+      结论：明确条件不匹配
+    </p>
+  </section>
+
+  <!-- 6 案例B -->
+  <section class="scene" id="s6">
+    <h2 id="s6t">优先项不当硬门槛</h2>
+    <div class="quote" id="s6q" style="margin-top:44px;font-size:36px">
+      2、每周可出勤4-5天，实习期不短于4个月，能连续实习优先
+    </div>
+    <div class="row" id="s6r" style="margin-top:52px;gap:36px;align-items:stretch">
+      <div class="card" style="flex:1;padding:40px 44px">
+        <div class="pill info">硬下界</div>
+        <div style="font-size:56px;font-weight:700;margin-top:18px">4 天 / 周</div>
+        <div class="sub" style="margin-top:10px">「4—5 天」取下界 4</div>
+      </div>
+      <div class="card" style="flex:1;padding:40px 44px">
+        <div class="pill info">硬下界</div>
+        <div style="font-size:56px;font-weight:700;margin-top:18px">4 个月</div>
+        <div class="sub" style="margin-top:10px">「不短于」是硬下界，覆盖通用 3 个月</div>
+      </div>
+      <div class="card" style="flex:1;padding:40px 44px;background:#f8fafd">
+        <div class="pill warn">偏好</div>
+        <div style="font-size:52px;font-weight:700;margin-top:18px;color:#7c8ba1">连续实习优先</div>
+        <div class="sub" style="margin-top:10px">不进硬门槛分母</div>
+      </div>
+    </div>
+    <p class="lead" id="s6n" style="margin-top:48px">
+      同一句里，时长与出勤<b>分别判断</b>硬条件与偏好。
+    </p>
+  </section>
+
+  <!-- 7 信息不足 -->
+  <section class="scene" id="s7">
+    <h2 id="s7t">信息不足，就不是「匹配」</h2>
+    <p class="lead" id="s7s" style="margin-top:22px">
+      3 个岗位原文未给出足够的在校 / 时长 / 出勤 / 毕业条件——保留为待复核，
+      <b>不把未知改写成符合</b>。
+    </p>
+    <div style="margin-top:52px;display:flex;flex-direction:column;gap:24px" id="s7l">
+      <div class="card" style="padding:32px 40px"><div class="pill warn">待复核</div>
+        <div style="font-size:34px;margin-top:14px">AI全栈工程师 · 美团</div></div>
+      <div class="card" style="padding:32px 40px"><div class="pill warn">待复核</div>
+        <div style="font-size:34px;margin-top:14px">智能商业分析师（BA/DS） · 美团</div></div>
+      <div class="card" style="padding:32px 40px"><div class="pill warn">待复核</div>
+        <div style="font-size:34px;margin-top:14px">实习-餐饮类客户美工设计 · 美团</div></div>
+    </div>
+  </section>
+
+  <!-- 8 入口 -->
+  <section class="scene" id="s8">
+    <h2 id="s8t">入口核验：停在登录前</h2>
+    <div class="row" id="s8f" style="margin-top:64px;gap:26px;align-items:center">
+      <div class="card" style="padding:34px 38px;font-size:32px">打开详情</div>
+      <div class="arrow">→</div>
+      <div class="card" style="padding:34px 38px;font-size:32px">点击投递（仅 1 次）</div>
+      <div class="arrow">→</div>
+      <div class="card" style="padding:34px 38px;font-size:32px;border-color:#f3c9c6">手机登录页</div>
+      <div class="stop" style="margin-left:18px">■ STOP</div>
+    </div>
+    <div class="row" id="s8b" style="margin-top:64px;gap:18px;flex-wrap:wrap">
+      <div class="pill info">不填写申请</div>
+      <div class="pill info">不上传简历</div>
+      <div class="pill info">不请求验证码</div>
+      <div class="pill info">不完成登录</div>
+      <div class="pill info">不提交申请</div>
+    </div>
+    <p class="lead" id="s8n" style="margin-top:56px">
+      字节跳动 → 手机号登录页；美团 → 手机登录弹窗。<br>
+      <b>需要登录 ≠ 岗位可申请</b>，也不代表画像符合或投递成功。
+    </p>
+  </section>
+
+  <!-- 9 快照 -->
+  <section class="scene" id="s9">
+    <h2 id="s9t">隔日重采：只改了附属内容</h2>
+    <p class="sub" id="s9s" style="margin-top:16px">同一批 5 个岗位，相隔约 18 小时</p>
+    <div class="row" id="s9r" style="margin-top:56px;gap:36px;align-items:stretch">
+      <div class="card" style="flex:1;padding:44px 48px">
+        <div class="pill bad">页面原文：变了</div>
+        <div style="font-size:34px;margin-top:20px">「相关职位」推荐区<br>替换与排序改变</div>
+      </div>
+      <div class="card" style="flex:1;padding:44px 48px">
+        <div class="pill ok">岗位正文：未变</div>
+        <div style="font-size:34px;margin-top:20px">5 / 5 正文哈希一致<br>同规则同画像结论未变</div>
+      </div>
+    </div>
+    <p class="lead" id="s9n" style="margin-top:52px">
+      判定为「页面附属内容改变，岗位正文未变」；<br>
+      提取版本不同、证据缺失或哈希不一致时，<b>不断言</b>只是附属变化。
+    </p>
+  </section>
+
+  <!-- 10 证据与用量 -->
+  <section class="scene" id="s10">
+    <h2 id="s10t">可审计的证据链</h2>
+    <div class="row" id="s10c" style="margin-top:52px;gap:20px;align-items:center;flex-wrap:wrap">
+      <div class="cell" style="font-size:30px">官网 URL</div><div class="arrow">→</div>
+      <div class="cell" style="font-size:30px">采集时间</div><div class="arrow">→</div>
+      <div class="cell" style="font-size:30px">原文正文</div><div class="arrow">→</div>
+      <div class="cell" style="font-size:30px">SHA-256</div><div class="arrow">→</div>
+      <div class="cell" style="font-size:30px">平台回放</div>
+    </div>
+    <div class="card" id="s10u" style="margin-top:56px;padding:48px 56px">
+      <div class="kv">
+        <div><div class="k">本周期会话</div><div class="v">17 个</div></div>
+        <div><div class="k">Cloud Browser 用量</div><div class="v">0.237 小时</div></div>
+        <div><div class="k">第三批 5 岗</div><div class="v">1 分 04 秒</div></div>
+      </div>
+    </div>
+    <p class="sub" id="s10n" style="margin-top:34px;font-size:24px">
+      周期 2026/10/19—11/19，取证 2026-10-22；为项目累计用量，非单次任务耗时；未核实人民币费用。
+    </p>
+  </section>
+
+  <!-- 11 边界 -->
+  <section class="scene" id="s11">
+    <h2 id="s11t">如实标注的边界</h2>
+    <div id="s11l" style="margin-top:56px;display:flex;flex-direction:column;gap:28px">
+      <div class="item"><div class="idx">!</div><div>20 岗是迭代后的开发 / 回归样本，不是独立留出集</div></div>
+      <div class="item"><div class="idx">!</div><div>未完成独立人工评测；AI 复核与规则一致性 <b>不是</b>人工金标准</div></div>
+      <div class="item"><div class="idx">!</div><div>美团自动发现点击链路仍不稳定（手动提供详情 URL 可采集）</div></div>
+      <div class="item"><div class="idx">!</div><div>20 岗无「可匹配」真实对照，不声称误拒率为 0</div></div>
+    </div>
+  </section>
+
+  <!-- 12 结尾 -->
+  <section class="scene" id="s12" style="display:flex;flex-direction:column;justify-content:center">
+    <div class="eyebrow" id="s12a">OPEN SOURCE · MIT</div>
+    <h1 id="s12b" style="margin-top:30px;font-size:82px" class="mono">github.com/<br>shanshiang32/applycheck</h1>
+    <p class="lead" id="s12c" style="margin-top:44px">
+      规则 0.1.13 · 70 项离线测试通过 · 20 个真实岗位原文与哈希可追溯
+    </p>
+    <p class="sub mono" id="s12d" style="margin-top:48px">ApplyCheck / 投前核验</p>
+  </section>
+</div>
+
+<script>
+const DUR = 68.0;
+const $ = id => document.getElementById(id);
+const clamp01 = v => v < 0 ? 0 : v > 1 ? 1 : v;
+const ease = v => { v = clamp01(v); return v * v * (3 - 2 * v); };
+const seg = (t, a, b) => ease((t - a) / (b - a));
+
+function put(el, p, dy) {
+  if (!el) return;
+  p = clamp01(p);
+  el.style.opacity = p;
+  el.style.visibility = p <= 0.002 ? 'hidden' : 'visible';
+  el.style.transform = 'translateY(' + (dy || 0) * (1 - p) + 'px)';
+}
+
+// 场景 1–12 的时间窗
+const W = [
+  [0.0, 4.0], [4.0, 11.0], [11.0, 17.0], [17.0, 24.0],
+  [24.0, 31.0], [31.0, 37.5], [37.5, 42.5], [42.5, 48.5],
+  [48.5, 54.0], [54.0, 59.5], [59.5, 64.0], [64.0, 68.0]
+];
+
+function scene(i, t, fade) {
+  const el = $('s' + i);
+  const [a, b] = W[i - 1];
+  const inP = seg(t, a, a + Math.min(0.55, fade));
+  const outP = 1 - seg(t, b - 0.45, b);
+  put(el, Math.min(inP, outP), 14);
+  return inP * outP;
+}
+
+// 底部场景指示
+const dots = [];
+for (let i = 0; i < 12; i++) {
+  const d = document.createElement('div');
+  d.className = 'dot';
+  $('dots').appendChild(d);
+  dots.push(d);
+}
+
+function render(t) {
+  // 顶栏
+  $('brand').style.opacity = 0.9;
+  $('brandline').style.transform = 'scaleX(' + seg(t, 0, 0.8) + ')';
+
+  for (let i = 1; i <= 12; i++) scene(i, t, 0.5);
+
+  // 指示点
+  const active = W.findIndex(w => t >= w[0] && t < w[1]);
+  dots.forEach((d, i) => {
+    const on = i === active;
+    d.style.background = on ? '#3169ce' : '#cfd9e6';
+    d.style.opacity = on ? 1 : 0.75;
+  });
+
+  // --- 场景 1
+  put($('s1a'), seg(t, 0.15, 0.75), 10);
+  put($('s1b'), seg(t, 0.40, 1.15), 18);
+  put($('s1c'), seg(t, 0.85, 1.70), 14);
+  put($('s1d'), seg(t, 1.30, 2.20), 12);
+
+  // --- 场景 2
+  put($('s2t'), seg(t, 4.10, 4.70), 12);
+  [...$('s2l').children].forEach((el, i) => put(el, seg(t, 4.55 + i * 0.34, 5.05 + i * 0.34), 16));
+
+  // --- 场景 3
+  put($('s3t'), seg(t, 11.10, 11.70), 12);
+  put($('s3c'), seg(t, 11.45, 12.15), 22);
+  put($('s3n'), seg(t, 12.20, 12.95), 14);
+
+  // --- 场景 4（数字滚动）
+  put($('s4t'), seg(t, 17.10, 17.70), 12);
+  put($('s4s'), seg(t, 17.30, 17.95), 10);
+  put($('s4r'), seg(t, 17.75, 18.45), 18);
+  const cp = seg(t, 18.0, 20.2);
+  $('s4n1').textContent = Math.round(17 * cp);
+  $('s4n2').textContent = Math.round(3 * cp);
+  $('s4n3').textContent = Math.round(0 * cp);
+  $('s4b1').style.transform = 'scaleX(' + (0.92 * cp) + ')';
+  $('s4b2').style.transform = 'scaleX(' + (0.17 * cp) + ')';
+  $('s4b3').style.transform = 'scaleX(' + (0.02 * cp) + ')';
+  put($('s4n'), seg(t, 20.3, 21.1), 12);
+
+  // --- 场景 5
+  put($('s5t'), seg(t, 24.10, 24.70), 12);
+  put($('s5s'), seg(t, 24.30, 24.90), 10);
+  put($('s5c'), seg(t, 24.70, 25.40), 20);
+  put($('s5v'), seg(t, 26.10, 26.85), 16);
+
+  // --- 场景 6
+  put($('s6t'), seg(t, 31.10, 31.70), 12);
+  put($('s6q'), seg(t, 31.45, 32.15), 14);
+  [...$('s6r').children].forEach((el, i) => put(el, seg(t, 32.10 + i * 0.42, 32.75 + i * 0.42), 18));
+  put($('s6n'), seg(t, 33.60, 34.30), 12);
+
+  // --- 场景 7
+  put($('s7t'), seg(t, 37.60, 38.20), 12);
+  put($('s7s'), seg(t, 37.85, 38.55), 12);
+  [...$('s7l').children].forEach((el, i) => put(el, seg(t, 38.30 + i * 0.40, 38.90 + i * 0.40), 16));
+
+  // --- 场景 8
+  put($('s8t'), seg(t, 42.60, 43.20), 12);
+  [...$('s8f').children].forEach((el, i) => put(el, seg(t, 43.05 + i * 0.30, 43.60 + i * 0.30), 14));
+  [...$('s8b').children].forEach((el, i) => put(el, seg(t, 44.60 + i * 0.16, 45.10 + i * 0.16), 10));
+  put($('s8n'), seg(t, 45.60, 46.35), 12);
+
+  // --- 场景 9
+  put($('s9t'), seg(t, 48.60, 49.20), 12);
+  put($('s9s'), seg(t, 48.80, 49.40), 10);
+  [...$('s9r').children].forEach((el, i) => put(el, seg(t, 49.20 + i * 0.42, 49.85 + i * 0.42), 18));
+  put($('s9n'), seg(t, 50.60, 51.35), 12);
+
+  // --- 场景 10
+  put($('s10t'), seg(t, 54.10, 54.70), 12);
+  [...$('s10c').children].forEach((el, i) => put(el, seg(t, 54.45 + i * 0.13, 54.95 + i * 0.13), 12));
+  put($('s10u'), seg(t, 55.90, 56.60), 18);
+  put($('s10n'), seg(t, 56.60, 57.30), 10);
+
+  // --- 场景 11
+  put($('s11t'), seg(t, 59.60, 60.20), 12);
+  [...$('s11l').children].forEach((el, i) => put(el, seg(t, 59.95 + i * 0.36, 60.55 + i * 0.36), 16));
+
+  // --- 场景 12
+  put($('s12a'), seg(t, 64.10, 64.70), 10);
+  put($('s12b'), seg(t, 64.35, 65.05), 16);
+  put($('s12c'), seg(t, 64.90, 65.60), 12);
+  put($('s12d'), seg(t, 65.40, 66.10), 10);
+}
+
+window.render = render;
+window.DURATION = DUR;
+render(0);
+</script>
+</body>
+</html>
