@@ -1,5 +1,7 @@
 # 投前核验 ApplyCheck · Lexmount 参赛项目
 
+[首次了解：案例与效果](docs/FIRST_LOOK.md) · [认证流程与安全审查](docs/AUTHENTICATION_AND_SECURITY.md)
+
 目标：帮求职者核对实习岗位的明确门槛、页面状态和申请入口，并为每个判断留下原文依据。
 
 **当前状态**：已完成 Lexmount 云端真实采集 20 个不同岗位（字节 16 + 美团 4），统一离线重分析为 17 岗明确条件不匹配、3 岗信息不足待复核；入口核验停在登录前。规则版本 0.1.13，70 项离线测试通过。详见 [`submission/`](./submission/)。
